@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🚲 Citi Bike Pass Optimizer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #1a202c; }
+
+    header {
+      background: linear-gradient(135deg, #003865, #0072ce);
+      color: white; padding: 20px 32px;
+      display: flex; align-items: center; gap: 16px;
+    }
+    header h1 { font-size: 1.6rem; font-weight: 700; }
+    header p { font-size: 0.9rem; opacity: 0.85; margin-top: 4px; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+
+    /* INPUT PANEL */
+    .input-card {
+      background: white; border-radius: 12px; padding: 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08); margin-bottom: 24px;
+    }
+    .input-card h2 { font-size: 1.1rem; color: #003865; margin-bottom: 16px; }
+    .form-row { display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-end; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 200px; }
+    .form-group label { font-size: 0.85rem; font-weight: 600; color: #4a5568; }
+    .form-group input[type="text"],
+    .form-group input[type="file"] {
+      padding: 10px 12px; border: 1.5px solid #cbd5e0; border-radius: 8px;
+      font-size: 0.9rem; outline: none; transition: border-color 0.2s;
+    }
+    .form-group input:focus { border-color: #0072ce; }
+
+    #upload-status { font-size: 0.82rem; color: #38a169; margin-top: 6px; min-height: 18px; }
+    #upload-status.error { color: #e53e3e; }
+
+    .btn-run {
+      background: #0072ce; color: white; border: none; padding: 11px 28px;
+      border-radius: 8px; font-size: 0.95rem; font-weight: 600; cursor: pointer;
+      transition: background 0.2s; white-space: nowrap;
+    }
+    .btn-run:hover { background: #005aa3; }
+    .btn-run:disabled { background: #a0aec0; cursor: not-allowed; }
+
+    /* METRICS STRIP */
+    .metrics-strip {
+      display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px;
+    }
+    .metric-box {
+      background: white; border-radius: 10px; padding: 14px 20px;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.07); flex: 1; min-width: 140px;
+      text-align: center;
+    }
+    .metric-box .label { font-size: 0.75rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px; }
+    .metric-box .value { font-size: 1.6rem; font-weight: 700; color: #003865; margin-top: 4px; }
+
+    /* TWO COLUMN LAYOUT */
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    @media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
+
+    /* TIMELINE PANEL */
+    .panel {
+      background: white; border-radius: 12px; padding: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    .panel h2 { font-size: 1rem; color: #003865; margin-bottom: 16px;
+      display: flex; align-items: center; gap: 8px; }
+
+    #timeline { display: flex; flex-direction: column; gap: 12px; max-height: 560px; overflow-y: auto; }
+
+    .step-card {
+      border-left: 4px solid #cbd5e0; padding: 10px 14px;
+      border-radius: 0 8px 8px 0; background: #f7fafc;
+      font-size: 0.85rem; animation: fadeIn 0.3s ease;
+    }
+    .step-card.thought { border-color: #805ad5; background: #faf5ff; }
+    .step-card.action  { border-color: #0072ce; background: #ebf8ff; }
+    .step-card.final_answer { border-color: #38a169; background: #f0fff4; }
+    .step-card.error   { border-color: #e53e3e; background: #fff5f5; }
+
+    .step-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+    .step-badge {
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; padding: 2px 8px;
+      border-radius: 999px; letter-spacing: 0.5px;
+    }
+    .badge-thought { background: #e9d8fd; color: #553c9a; }
+    .badge-action  { background: #bee3f8; color: #2b6cb0; }
+    .badge-final   { background: #c6f6d5; color: #276749; }
+    .badge-error   { background: #fed7d7; color: #9b2c2c; }
+    .step-latency  { font-size: 0.72rem; color: #a0aec0; }
+
+    .step-tool { font-weight: 600; color: #2b6cb0; margin-bottom: 4px; }
+    .step-content { color: #2d3748; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+    .step-obs { margin-top: 8px; padding: 8px; background: #edf2f7; border-radius: 6px;
+      font-family: monospace; font-size: 0.78rem; max-height: 120px; overflow-y: auto; white-space: pre-wrap; }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* RESULTS PANEL */
+    #results-panel { display: none; }
+    .decision-box {
+      padding: 16px 20px; border-radius: 10px; margin-bottom: 16px;
+      font-size: 1.1rem; font-weight: 700; text-align: center;
+    }
+    .decision-membership { background: #c6f6d5; color: #22543d; border: 2px solid #38a169; }
+    .decision-payperuse  { background: #bee3f8; color: #1a365d; border: 2px solid #3182ce; }
+
+    .section-title { font-weight: 700; color: #003865; margin: 14px 0 8px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    .cost-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 8px; }
+    .cost-table th { background: #003865; color: white; padding: 8px 10px; text-align: left; }
+    .cost-table td { padding: 7px 10px; border-bottom: 1px solid #e2e8f0; }
+    .cost-table tr:nth-child(even) td { background: #f7fafc; }
+    .cost-table .highlight td { background: #fefcbf; font-weight: 600; }
+
+    .justification { font-size: 0.88rem; line-height: 1.7; color: #2d3748; background: #f7fafc;
+      padding: 12px; border-radius: 8px; border-left: 4px solid #0072ce; margin-bottom: 12px; }
+
+    .citations { font-size: 0.78rem; color: #718096; margin-top: 10px; line-height: 1.6; }
+    .citations strong { color: #4a5568; }
+
+    .assumptions { font-size: 0.8rem; color: #718096; background: #fffbeb; padding: 10px 14px;
+      border-radius: 8px; border-left: 4px solid #f6ad55; margin-top: 12px; line-height: 1.6; }
+
+    .spinner {
+      display: inline-block; width: 16px; height: 16px;
+      border: 2px solid #fff; border-top-color: transparent;
+      border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .empty-state { text-align: center; color: #a0aec0; padding: 40px 20px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>🚲</div>
+  <div>
+    <h1>Citi Bike Pass Optimizer</h1>
+    <p>Single-Agent ReAct + MRKL · NYC Citi Bike · Powered by Ollama phi3:mini</p>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- INPUT CARD -->
+  <div class="input-card">
+    <h2>⚙️ Configure Analysis</h2>
+    <div class="form-row">
+      <div class="form-group">
+        <label>📁 Upload Citi Bike Trip CSV</label>
+        <input type="file" id="csv-file" accept=".csv" onchange="uploadCSV()" />
+        <div id="upload-status">No file uploaded yet.</div>
+      </div>
+      <div class="form-group" style="flex: 2;">
+        <label>🔗 Citi Bike Pricing URL</label>
+        <input type="text" id="pricing-url"
+          value="https://citibikenyc.com/pricing"
+          placeholder="https://citibikenyc.com/pricing" />
+      </div>
+      <button class="btn-run" id="run-btn" onclick="runAgent()" disabled>
+        ▶ Run Agent
+      </button>
+    </div>
+  </div>
+
+  <!-- METRICS STRIP -->
+  <div class="metrics-strip">
+    <div class="metric-box">
+      <div class="label">Steps</div>
+      <div class="value" id="metric-steps">—</div>
+    </div>
+    <div class="metric-box">
+      <div class="label">Total Time</div>
+      <div class="value" id="metric-time">—</div>
+    </div>
+    <div class="metric-box">
+      <div class="label">Stop Reason</div>
+      <div class="value" id="metric-stop" style="font-size:1rem; padding-top:6px;">—</div>
+    </div>
+    <div class="metric-box">
+      <div class="label">Decision</div>
+      <div class="value" id="metric-decision" style="font-size:0.9rem; padding-top:6px;">—</div>
+    </div>
+  </div>
+
+  <!-- TWO COLUMN: TIMELINE + RESULTS -->
+  <div class="two-col">
+
+    <!-- TIMELINE PANEL -->
+    <div class="panel">
+      <h2>🧠 Agent Timeline <span id="thinking-spinner" style="display:none;"><span class="spinner"></span></span></h2>
+      <div id="timeline">
+        <div class="empty-state">Upload a CSV and click <strong>Run Agent</strong> to begin.</div>
+      </div>
+    </div>
+
+    <!-- RESULTS PANEL -->
+    <div class="panel" id="results-panel">
+      <h2>📊 Results & Cost Analysis</h2>
+
+      <div id="decision-box" class="decision-box">—</div>
+
+      <div class="section-title">💬 Justification</div>
+      <div id="justification" class="justification">—</div>
+
+      <div class="section-title">💰 Cost Breakdown</div>
+      <table class="cost-table" id="cost-table">
+        <thead>
+          <tr><th>Plan</th><th>Cost</th><th>Notes</th></tr>
+        </thead>
+        <tbody id="cost-tbody">
+          <tr><td colspan="3" style="text-align:center;color:#a0aec0;">Awaiting agent output…</td></tr>
+        </tbody>
+      </table>
+
+      <div class="section-title">📅 Weekly Breakdown</div>
+      <table class="cost-table" id="weekly-table">
+        <thead>
+          <tr><th>Week</th><th>Rides</th><th>Avg Duration (min)</th><th>E-bike %</th><th>Est. Spend</th></tr>
+        </thead>
+        <tbody id="weekly-tbody">
+          <tr><td colspan="5" style="text-align:center;color:#a0aec0;">Awaiting agent output…</td></tr>
+        </tbody>
+      </table>
+
+      <div class="section-title">📌 Assumptions & Caveats</div>
+      <div id="assumptions" class="assumptions">—</div>
+
+      <div class="section-title">🔗 Citations</div>
+      <div id="citations" class="citations">—</div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  let csvUploaded = false;
+
+  async function uploadCSV() {
+    const fileInput = document.getElementById('csv-file');
+    const statusEl = document.getElementById('upload-status');
+    const runBtn = document.getElementById('run-btn');
+
+    if (!fileInput.files.length) return;
+
+    const file = fileInput.files[0];
+    statusEl.className = '';
+    statusEl.textContent = '⏳ Uploading…';
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+      const resp = await fetch('/upload', { method: 'POST', body: formData });
+      const data = await resp.json();
+      if (resp.ok && data.success) {
+        statusEl.textContent = `✅ ${data.message} | Columns: ${data.columns.slice(0,5).join(', ')}…`;
+        csvUploaded = true;
+        runBtn.disabled = false;
+      } else {
+        statusEl.className = 'error';
+        statusEl.textContent = `❌ ${data.detail || 'Upload failed.'}`;
+      }
+    } catch (e) {
+      statusEl.className = 'error';
+      statusEl.textContent = `❌ Network error: ${e.message}`;
+    }
+  }
+
+  function addTimelineStep(step) {
+    const timeline = document.getElementById('timeline');
+    const emptyState = timeline.querySelector('.empty-state');
+    if (emptyState) emptyState.remove();
+
+    const card = document.createElement('div');
+    const stepType = step.type || 'thought';
+    card.className = `step-card ${stepType}`;
+
+    let badgeClass = 'badge-thought';
+    let badgeLabel = `Step ${step.step} · Thought`;
+    if (stepType === 'action') { badgeClass = 'badge-action'; badgeLabel = `Step ${step.step} · Action`; }
+    if (stepType === 'final_answer') { badgeClass = 'badge-final'; badgeLabel = `Step ${step.step} · Final Answer`; }
+    if (stepType === 'error') { badgeClass = 'badge-error'; badgeLabel = 'Error'; }
+
+    let html = `
+      <div class="step-header">
+        <span class="step-badge ${badgeClass}">${badgeLabel}</span>
+        <span class="step-latency">${step.latency_s ? step.latency_s + 's' : ''}</span>
+      </div>`;
+
+    if (step.tool) {
+      html += `<div class="step-tool">🔧 Tool: ${step.tool}</div>`;
+      if (step.tool_input) {
+        html += `<div class="step-content" style="font-family:monospace;font-size:0.78rem;color:#2b6cb0;">${JSON.stringify(step.tool_input, null, 2)}</div>`;
+      }
+    }
+
+    if (step.content) {
+      html += `<div class="step-content">${escHtml(step.content)}</div>`;
+    }
+
+    if (step.observation) {
+      let obsText = step.observation;
+      try { obsText = JSON.stringify(JSON.parse(step.observation), null, 2); } catch(e) {}
+      html += `<div class="step-obs"><strong>Observation:</strong>\n${escHtml(obsText)}</div>`;
+    }
+
+    card.innerHTML = html;
+    timeline.appendChild(card);
+    timeline.scrollTop = timeline.scrollHeight;
+  }
+
+  function escHtml(text) {
+    if (!text) return '';
+    return String(text)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/\n/g, '<br>');
+  }
+
+  function parseFinalAnswer(text) {
+    // --- Decision: read DECISION: field first, fall back to keyword scan ---
+    const decisionBox = document.getElementById('decision-box');
+    const decisionMatch = text.match(/^DECISION:\s*(.+)$/im);
+    const decisionText = decisionMatch ? decisionMatch[1].trim() : '';
+    const isMembership = /monthly membership/i.test(decisionText) || (!decisionText && /monthly membership/i.test(text.split('\n')[0]));
+
+    if (isMembership) {
+      decisionBox.className = 'decision-box decision-membership';
+      decisionBox.textContent = '✅ Recommendation: Buy Monthly Membership';
+      document.getElementById('metric-decision').textContent = 'Membership';
+    } else {
+      decisionBox.className = 'decision-box decision-payperuse';
+      decisionBox.textContent = '💳 Recommendation: Pay Per Ride / Minute';
+      document.getElementById('metric-decision').textContent = 'Pay-Per-Use';
+    }
+
+    // --- Justification ---
+    const justEl = document.getElementById('justification');
+    const justMatch = text.match(/^JUSTIFICATION:\s*(.+?)(?=\nCOST BREAKDOWN:|\nWEEKLY|\nASSUMPTION|\nCITATION|$)/ims);
+    justEl.textContent = justMatch ? justMatch[1].trim() : text.substring(0, 400);
+
+    // --- Assumptions ---
+    const assumpEl = document.getElementById('assumptions');
+    const assumpMatch = text.match(/^ASSUMPTIONS?:\s*(.+?)(?=\nCITATION:|$)/ims);
+    assumpEl.textContent = assumpMatch ? assumpMatch[1].trim() : 'See agent reasoning in the timeline for full assumptions.';
+
+    // --- Citations ---
+    const citEl = document.getElementById('citations');
+    const citMatch = text.match(/^CITATION[S]?:\s*(.+?)$/im);
+    const citText = citMatch ? citMatch[1].trim() : 'Citi Bike Pricing — citibikenyc.com/pricing';
+    citEl.innerHTML = `<strong>Source:</strong> ${escHtml(citText)} — <a href="https://citibikenyc.com/pricing" target="_blank">citibikenyc.com/pricing</a> (captured ${new Date().toLocaleDateString()})`;
+
+    populateCostTable(text);
+    populateWeeklyTable(text);
+    document.getElementById('results-panel').style.display = 'block';
+  }
+
+  function populateCostTable(text) {
+    const tbody = document.getElementById('cost-tbody');
+
+    // Match ONLY the structured COST BREAKDOWN section lines
+    const sectionMatch = text.match(/COST BREAKDOWN:\s*([\s\S]*?)(?=\nWEEKLY BREAKDOWN:|\nASSUMPTION|\nCITATION|$)/i);
+    const section = sectionMatch ? sectionMatch[1] : text;
+
+    // Extract each line: "- Pay Per Use total: $14.97"
+    const payMatch  = section.match(/pay per use[^:\n]*:\s*\$?([\d,]+\.?\d*)/i);
+    const memMatch  = section.match(/monthly membership[^:\n]*:\s*\$?([\d,]+\.?\d*)/i);
+    const saveMatch = section.match(/savings?[^:\n]*:\s*\$?([\d,]+\.?\d*)/i);
+
+    let rows = '';
+    if (payMatch)  rows += `<tr><td>Pay Per Use</td><td>$${payMatch[1]}</td><td>Based on actual trip data</td></tr>`;
+    if (memMatch)  rows += `<tr><td>Monthly Membership</td><td>$${memMatch[1]}</td><td>$19.99/month + e-bike surcharge</td></tr>`;
+    if (saveMatch) rows += `<tr class="highlight"><td>💰 Savings</td><td>$${saveMatch[1]}</td><td>With recommended plan</td></tr>`;
+
+    tbody.innerHTML = rows || `<tr><td colspan="3">See agent reasoning in the timeline for cost details.</td></tr>`;
+  }
+
+  function populateWeeklyTable(text) {
+    const tbody = document.getElementById('weekly-tbody');
+
+    // Match structured lines from WEEKLY BREAKDOWN section only
+    const sectionMatch = text.match(/WEEKLY BREAKDOWN:\s*([\s\S]*?)(?=\nASSUMPTION|\nCITATION|$)/i);
+    const section = sectionMatch ? sectionMatch[1] : '';
+
+    const weekLines = [...section.matchAll(/week\s*(\d)[:\s-]*([0-9.]+)\s*rides?,?\s*avg\s*([0-9.]+)\s*min[^$\n]*\$?([0-9.]+)?/gi)];
+    if (weekLines.length > 0) {
+      tbody.innerHTML = weekLines.map(m =>
+        `<tr><td>Week ${m[1]}</td><td>${m[2]}</td><td>${m[3]}</td><td>—</td><td>${m[4] ? '$'+m[4] : '—'}</td></tr>`
+      ).join('');
+      return;
+    }
+
+    // Fallback: derive from total rides / avg min
+    const ridesMatch = text.match(/(\d+)\s*(?:total\s*)?rides?/i);
+    const avgMatch   = text.match(/avg[^0-9]*([0-9.]+)\s*min/i);
+    if (ridesMatch && avgMatch) {
+      const perWeek = Math.round(parseInt(ridesMatch[1]) / 4);
+      const avg = parseFloat(avgMatch[1]);
+      tbody.innerHTML = [1,2,3,4].map(w =>
+        `<tr><td>Week ${w}</td><td>~${perWeek}</td><td>${avg}</td><td>—</td><td>—</td></tr>`
+      ).join('');
+    } else {
+      tbody.innerHTML = `<tr><td colspan="5">Weekly data extracted from agent SQL queries. See timeline for details.</td></tr>`;
+    }
+  }
+  async function runAgent() {
+    const runBtn = document.getElementById('run-btn');
+    const spinner = document.getElementById('thinking-spinner');
+    const timeline = document.getElementById('timeline');
+    const pricingUrl = document.getElementById('pricing-url').value.trim();
+
+    if (!csvUploaded) { alert('Please upload a CSV first.'); return; }
+    if (!pricingUrl) { alert('Please enter a pricing URL.'); return; }
+
+    // Reset UI
+    timeline.innerHTML = '';
+    document.getElementById('results-panel').style.display = 'none';
+    document.getElementById('metric-steps').textContent = '—';
+    document.getElementById('metric-time').textContent = '—';
+    document.getElementById('metric-stop').textContent = '—';
+    document.getElementById('metric-decision').textContent = '—';
+    runBtn.disabled = true;
+    runBtn.innerHTML = '<span class="spinner"></span> Running…';
+    spinner.style.display = 'inline';
+
+    const formData = new FormData();
+    formData.append('pricing_url', pricingUrl);
+
+    try {
+      const resp = await fetch('/run-agent', { method: 'POST', body: formData });
+      const reader = resp.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = '';
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop();
+
+        for (const line of lines) {
+          if (line.startsWith('data: ')) {
+            try {
+              const step = JSON.parse(line.slice(6));
+              if (step.type === 'metadata') {
+                document.getElementById('metric-steps').textContent = step.total_steps;
+                document.getElementById('metric-time').textContent = step.total_time_s + 's';
+                document.getElementById('metric-stop').textContent = step.stop_reason;
+              } else if (step.type === 'final_answer') {
+                addTimelineStep(step);
+                parseFinalAnswer(step.content);
+              } else {
+                addTimelineStep(step);
+              }
+            } catch (e) { console.warn('Parse error:', e); }
+          }
+        }
+      }
+    } catch (e) {
+      addTimelineStep({ step: '?', type: 'error', content: `Connection error: ${e.message}` });
+    } finally {
+      runBtn.disabled = false;
+      runBtn.textContent = '▶ Run Agent';
+      spinner.style.display = 'none';
+    }
+  }
+</script>
+</body>
+</html>

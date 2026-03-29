@@ -1,0 +1,551 @@
+ride_id,rideable_type,started_at,ended_at,start_station_name,end_station_name,tripduration,member_casual
+ride_518098,classic_bike,2024-09-29 21:44:00,2024-09-29 22:12:00,W 41 St & 8 Ave,Hudson St & Reade St,1680,member
+ride_197573,classic_bike,2024-09-28 22:45:00,2024-09-28 23:02:48,Fulton St & Broadway,W 21 St & 6 Ave,1068,member
+ride_468900,classic_bike,2024-09-30 23:53:00,2024-10-01 00:05:18,Hudson St & Reade St,W 41 St & 8 Ave,738,member
+ride_891093,electric_bike,2024-09-29 03:11:00,2024-09-29 03:50:30,Fulton St & Broadway,Hudson St & Reade St,2370,member
+ride_539898,electric_bike,2024-09-04 15:32:00,2024-09-04 16:25:54,Central Park S & 6 Ave,W 72 St & Columbus Ave,3234,casual
+ride_749468,electric_bike,2024-09-21 03:45:00,2024-09-21 03:51:18,Central Park S & 6 Ave,W 21 St & 6 Ave,378,member
+ride_327797,classic_bike,2024-09-25 01:43:00,2024-09-25 02:01:48,W 72 St & Columbus Ave,Fulton St & Broadway,1128,member
+ride_526117,classic_bike,2024-09-05 18:12:00,2024-09-05 18:50:00,W 41 St & 8 Ave,W 72 St & Columbus Ave,2280,member
+ride_445658,electric_bike,2024-09-02 15:53:00,2024-09-02 16:18:54,Hudson St & Reade St,W 72 St & Columbus Ave,1554,member
+ride_876764,electric_bike,2024-09-15 18:36:00,2024-09-15 19:05:12,E 17 St & Broadway,Broadway & W 60 St,1752,member
+ride_154714,electric_bike,2024-09-22 22:56:00,2024-09-22 23:32:24,8 Ave & W 31 St,W 41 St & 8 Ave,2184,member
+ride_602681,electric_bike,2024-09-07 00:08:00,2024-09-07 00:33:00,Hudson St & Reade St,Central Park S & 6 Ave,1500,member
+ride_979727,classic_bike,2024-10-01 14:53:00,2024-10-01 15:15:06,8 Ave & W 31 St,Fulton St & Broadway,1326,member
+ride_870214,electric_bike,2024-09-21 21:35:00,2024-09-21 21:45:30,W 21 St & 6 Ave,Fulton St & Broadway,630,member
+ride_802371,classic_bike,2024-09-20 02:07:00,2024-09-20 02:39:12,Central Park S & 6 Ave,W 21 St & 6 Ave,1932,member
+ride_180089,classic_bike,2024-09-24 15:55:00,2024-09-24 16:26:06,W 41 St & 8 Ave,8 Ave & W 31 St,1866,member
+ride_783823,electric_bike,2024-09-13 03:34:00,2024-09-13 03:41:06,E 17 St & Broadway,W 21 St & 6 Ave,426,member
+ride_259814,electric_bike,2024-09-14 00:07:00,2024-09-14 00:26:48,University Pl & E 14 St,Broadway & W 60 St,1188,member
+ride_326895,electric_bike,2024-09-02 15:42:00,2024-09-02 15:58:42,8 Ave & W 31 St,Broadway & W 60 St,1002,member
+ride_527398,classic_bike,2024-09-03 17:15:00,2024-09-03 17:35:00,E 17 St & Broadway,Fulton St & Broadway,1200,member
+ride_942946,classic_bike,2024-09-09 03:58:00,2024-09-09 04:10:30,Fulton St & Broadway,E 17 St & Broadway,750,member
+ride_329157,electric_bike,2024-09-30 02:32:00,2024-09-30 02:51:12,Fulton St & Broadway,W 72 St & Columbus Ave,1152,member
+ride_982554,electric_bike,2024-09-26 01:35:00,2024-09-26 02:27:30,E 17 St & Broadway,W 41 St & 8 Ave,3150,casual
+ride_468611,classic_bike,2024-09-25 15:36:00,2024-09-25 15:54:42,E 17 St & Broadway,Fulton St & Broadway,1122,member
+ride_745584,classic_bike,2024-09-19 04:04:00,2024-09-19 04:24:36,8 Ave & W 31 St,E 17 St & Broadway,1236,member
+ride_170674,classic_bike,2024-09-05 17:30:00,2024-09-05 17:59:12,W 21 St & 6 Ave,Broadway & W 60 St,1752,member
+ride_524035,classic_bike,2024-09-08 00:49:00,2024-09-08 01:21:06,8 Ave & W 31 St,W 21 St & 6 Ave,1926,member
+ride_395023,classic_bike,2024-09-22 22:59:00,2024-09-22 23:26:24,W 21 St & 6 Ave,E 17 St & Broadway,1644,member
+ride_556732,electric_bike,2024-09-23 02:03:00,2024-09-23 02:31:12,Fulton St & Broadway,Hudson St & Reade St,1692,member
+ride_631756,electric_bike,2024-09-16 16:12:00,2024-09-16 16:43:48,E 17 St & Broadway,W 41 St & 8 Ave,1908,member
+ride_617077,classic_bike,2024-09-16 22:40:00,2024-09-16 23:00:06,Broadway & W 60 St,W 41 St & 8 Ave,1206,member
+ride_736408,classic_bike,2024-09-29 01:31:00,2024-09-29 01:59:48,Central Park S & 6 Ave,W 72 St & Columbus Ave,1728,member
+ride_208214,classic_bike,2024-09-21 15:44:00,2024-09-21 16:06:42,E 17 St & Broadway,8 Ave & W 31 St,1362,member
+ride_735656,electric_bike,2024-09-13 20:52:00,2024-09-13 21:32:30,W 41 St & 8 Ave,Fulton St & Broadway,2430,member
+ride_133104,classic_bike,2024-09-06 21:40:00,2024-09-06 21:49:24,8 Ave & W 31 St,Broadway & W 60 St,564,member
+ride_839677,classic_bike,2024-09-04 03:39:00,2024-09-04 03:59:54,Broadway & W 60 St,W 72 St & Columbus Ave,1254,member
+ride_583214,classic_bike,2024-09-16 00:51:00,2024-09-16 01:23:18,Fulton St & Broadway,Hudson St & Reade St,1937,member
+ride_160738,classic_bike,2024-09-28 15:30:00,2024-09-28 16:27:48,Broadway & W 60 St,Central Park S & 6 Ave,3468,casual
+ride_493049,classic_bike,2024-09-19 01:49:00,2024-09-19 02:13:00,Broadway & W 60 St,University Pl & E 14 St,1440,member
+ride_970127,electric_bike,2024-09-17 02:51:00,2024-09-17 03:13:12,Central Park S & 6 Ave,E 17 St & Broadway,1332,member
+ride_936821,classic_bike,2024-09-08 20:41:00,2024-09-08 20:58:00,W 72 St & Columbus Ave,Broadway & W 60 St,1020,member
+ride_934908,electric_bike,2024-09-02 23:32:00,2024-09-02 23:43:24,University Pl & E 14 St,W 41 St & 8 Ave,684,member
+ride_913875,electric_bike,2024-10-01 03:39:00,2024-10-01 03:48:42,University Pl & E 14 St,E 17 St & Broadway,582,member
+ride_113280,classic_bike,2024-09-09 23:33:00,2024-09-09 23:56:12,8 Ave & W 31 St,E 17 St & Broadway,1392,member
+ride_256466,electric_bike,2024-10-01 01:12:00,2024-10-01 01:26:48,University Pl & E 14 St,Fulton St & Broadway,888,member
+ride_913373,electric_bike,2024-09-11 21:08:00,2024-09-11 21:28:54,W 72 St & Columbus Ave,Central Park S & 6 Ave,1254,member
+ride_575575,classic_bike,2024-09-14 22:48:00,2024-09-14 23:05:42,University Pl & E 14 St,Broadway & W 60 St,1062,member
+ride_352838,classic_bike,2024-09-08 01:31:00,2024-09-08 01:55:06,E 17 St & Broadway,University Pl & E 14 St,1446,member
+ride_725380,electric_bike,2024-09-20 15:32:00,2024-09-20 16:24:36,8 Ave & W 31 St,Fulton St & Broadway,3156,casual
+ride_696251,electric_bike,2024-09-12 22:54:00,2024-09-12 23:07:48,University Pl & E 14 St,Broadway & W 60 St,828,member
+ride_264951,electric_bike,2024-09-14 22:02:00,2024-09-14 22:18:00,8 Ave & W 31 St,University Pl & E 14 St,960,member
+ride_466960,classic_bike,2024-09-13 02:56:00,2024-09-13 03:18:00,Hudson St & Reade St,W 21 St & 6 Ave,1320,member
+ride_593699,classic_bike,2024-09-08 02:08:00,2024-09-08 02:26:18,University Pl & E 14 St,W 72 St & Columbus Ave,1098,member
+ride_745558,classic_bike,2024-09-11 23:39:00,2024-09-11 23:58:12,E 17 St & Broadway,Hudson St & Reade St,1152,member
+ride_997004,classic_bike,2024-09-12 20:47:00,2024-09-12 21:16:30,Fulton St & Broadway,Central Park S & 6 Ave,1770,member
+ride_221761,classic_bike,2024-09-09 16:32:00,2024-09-09 16:44:54,Broadway & W 60 St,Hudson St & Reade St,774,member
+ride_779445,classic_bike,2024-09-09 15:15:00,2024-09-09 15:44:24,W 21 St & 6 Ave,University Pl & E 14 St,1764,member
+ride_173201,electric_bike,2024-09-05 20:42:00,2024-09-05 20:47:00,Hudson St & Reade St,8 Ave & W 31 St,300,member
+ride_592296,classic_bike,2024-09-13 14:39:00,2024-09-13 15:04:12,8 Ave & W 31 St,E 17 St & Broadway,1512,member
+ride_227324,classic_bike,2024-09-30 21:33:00,2024-09-30 21:57:54,Fulton St & Broadway,Hudson St & Reade St,1494,member
+ride_562462,classic_bike,2024-09-08 00:14:00,2024-09-08 00:34:06,Central Park S & 6 Ave,W 21 St & 6 Ave,1206,member
+ride_550664,electric_bike,2024-09-03 14:53:00,2024-09-03 15:05:06,Hudson St & Reade St,8 Ave & W 31 St,726,member
+ride_764406,classic_bike,2024-09-08 17:06:00,2024-09-08 17:20:24,Fulton St & Broadway,E 17 St & Broadway,864,member
+ride_466566,classic_bike,2024-09-25 16:57:00,2024-09-25 17:13:42,Central Park S & 6 Ave,Hudson St & Reade St,1002,member
+ride_786406,classic_bike,2024-09-14 17:51:00,2024-09-14 18:14:18,Fulton St & Broadway,W 72 St & Columbus Ave,1398,member
+ride_746447,classic_bike,2024-10-01 20:09:00,2024-10-01 20:38:54,8 Ave & W 31 St,Fulton St & Broadway,1794,member
+ride_442622,classic_bike,2024-09-06 16:47:00,2024-09-06 17:11:48,8 Ave & W 31 St,W 72 St & Columbus Ave,1488,member
+ride_962570,electric_bike,2024-09-28 22:37:00,2024-09-28 22:53:18,W 41 St & 8 Ave,W 72 St & Columbus Ave,978,member
+ride_800280,classic_bike,2024-09-29 03:34:00,2024-09-29 03:39:42,E 17 St & Broadway,University Pl & E 14 St,342,member
+ride_804318,classic_bike,2024-09-22 18:43:00,2024-09-22 19:01:36,University Pl & E 14 St,8 Ave & W 31 St,1116,member
+ride_114835,classic_bike,2024-09-04 18:36:00,2024-09-04 19:01:18,8 Ave & W 31 St,W 41 St & 8 Ave,1518,member
+ride_638289,classic_bike,2024-09-25 04:03:00,2024-09-25 04:28:54,Broadway & W 60 St,Hudson St & Reade St,1554,member
+ride_720995,classic_bike,2024-09-24 20:47:00,2024-09-24 21:12:12,W 72 St & Columbus Ave,Central Park S & 6 Ave,1512,member
+ride_913308,classic_bike,2024-10-01 18:52:00,2024-10-01 19:02:24,Fulton St & Broadway,E 17 St & Broadway,624,member
+ride_138551,electric_bike,2024-09-29 21:04:00,2024-09-29 21:12:12,University Pl & E 14 St,W 72 St & Columbus Ave,491,member
+ride_530816,classic_bike,2024-09-18 16:41:00,2024-09-18 17:09:42,Fulton St & Broadway,W 21 St & 6 Ave,1722,member
+ride_678856,classic_bike,2024-09-08 15:31:00,2024-09-08 16:21:42,University Pl & E 14 St,E 17 St & Broadway,3042,casual
+ride_447329,classic_bike,2024-09-03 23:49:00,2024-09-04 00:05:42,W 21 St & 6 Ave,University Pl & E 14 St,1002,member
+ride_197251,electric_bike,2024-09-06 15:35:00,2024-09-06 16:24:42,W 41 St & 8 Ave,E 17 St & Broadway,2982,casual
+ride_573417,classic_bike,2024-09-04 01:11:00,2024-09-04 01:35:36,Fulton St & Broadway,W 72 St & Columbus Ave,1476,member
+ride_512344,classic_bike,2024-09-21 21:49:00,2024-09-21 22:05:54,W 21 St & 6 Ave,8 Ave & W 31 St,1013,member
+ride_986589,classic_bike,2024-09-17 21:07:00,2024-09-17 21:44:54,W 41 St & 8 Ave,University Pl & E 14 St,2274,member
+ride_515922,classic_bike,2024-09-17 03:40:00,2024-09-17 04:05:42,Broadway & W 60 St,Fulton St & Broadway,1542,member
+ride_897143,classic_bike,2024-09-27 16:46:00,2024-09-27 17:24:12,8 Ave & W 31 St,Central Park S & 6 Ave,2292,member
+ride_361736,classic_bike,2024-09-25 02:34:00,2024-09-25 02:47:12,W 41 St & 8 Ave,Broadway & W 60 St,792,member
+ride_327823,classic_bike,2024-09-25 14:55:00,2024-09-25 15:12:12,Central Park S & 6 Ave,W 72 St & Columbus Ave,1032,member
+ride_991737,electric_bike,2024-09-30 16:13:00,2024-09-30 16:50:18,W 21 St & 6 Ave,Central Park S & 6 Ave,2238,member
+ride_207798,electric_bike,2024-09-27 02:52:00,2024-09-27 03:02:00,8 Ave & W 31 St,Broadway & W 60 St,600,member
+ride_443939,classic_bike,2024-09-07 18:00:00,2024-09-07 18:15:48,W 72 St & Columbus Ave,Hudson St & Reade St,948,member
+ride_125990,classic_bike,2024-09-06 23:39:00,2024-09-07 00:06:18,8 Ave & W 31 St,Fulton St & Broadway,1638,member
+ride_685941,classic_bike,2024-09-13 17:02:00,2024-09-13 17:22:18,Fulton St & Broadway,W 21 St & 6 Ave,1218,member
+ride_109717,electric_bike,2024-09-25 21:41:00,2024-09-25 22:00:24,Broadway & W 60 St,W 21 St & 6 Ave,1164,member
+ride_220768,electric_bike,2024-09-21 21:15:00,2024-09-21 21:40:30,University Pl & E 14 St,Broadway & W 60 St,1530,member
+ride_539486,classic_bike,2024-09-10 15:45:00,2024-09-10 16:10:18,W 41 St & 8 Ave,W 72 St & Columbus Ave,1518,member
+ride_882032,classic_bike,2024-09-14 22:13:00,2024-09-14 22:39:30,Broadway & W 60 St,W 21 St & 6 Ave,1590,member
+ride_705397,classic_bike,2024-09-10 01:39:00,2024-09-10 02:21:12,W 72 St & Columbus Ave,W 41 St & 8 Ave,2532,casual
+ride_352673,classic_bike,2024-10-01 18:54:00,2024-10-01 19:22:36,Hudson St & Reade St,Fulton St & Broadway,1716,member
+ride_306647,classic_bike,2024-09-16 04:04:00,2024-09-16 04:32:18,W 41 St & 8 Ave,University Pl & E 14 St,1698,member
+ride_965401,classic_bike,2024-09-26 20:05:00,2024-09-26 20:25:06,Hudson St & Reade St,Broadway & W 60 St,1206,member
+ride_755788,electric_bike,2024-09-29 14:42:00,2024-09-29 14:52:48,W 41 St & 8 Ave,Hudson St & Reade St,648,member
+ride_811256,classic_bike,2024-09-20 18:58:00,2024-09-20 19:20:36,Central Park S & 6 Ave,University Pl & E 14 St,1356,member
+ride_630458,classic_bike,2024-09-24 22:09:00,2024-09-24 22:57:36,Hudson St & Reade St,Central Park S & 6 Ave,2916,member
+ride_437408,electric_bike,2024-09-08 23:00:00,2024-09-08 23:16:18,University Pl & E 14 St,Hudson St & Reade St,978,member
+ride_251716,electric_bike,2024-09-19 03:44:00,2024-09-19 04:03:54,W 21 St & 6 Ave,W 41 St & 8 Ave,1194,member
+ride_303322,classic_bike,2024-09-25 23:10:00,2024-09-25 23:22:24,Hudson St & Reade St,W 72 St & Columbus Ave,744,member
+ride_428122,classic_bike,2024-09-12 03:00:00,2024-09-12 03:26:48,Central Park S & 6 Ave,University Pl & E 14 St,1608,member
+ride_101139,classic_bike,2024-09-19 00:49:00,2024-09-19 01:09:00,E 17 St & Broadway,8 Ave & W 31 St,1200,member
+ride_575755,electric_bike,2024-09-27 19:54:00,2024-09-27 20:19:18,Hudson St & Reade St,Broadway & W 60 St,1518,member
+ride_904214,electric_bike,2024-09-13 03:31:00,2024-09-13 04:10:00,Broadway & W 60 St,Central Park S & 6 Ave,2340,member
+ride_577079,classic_bike,2024-09-06 18:53:00,2024-09-06 19:10:48,Fulton St & Broadway,8 Ave & W 31 St,1068,member
+ride_581992,classic_bike,2024-09-10 22:50:00,2024-09-10 23:21:06,W 41 St & 8 Ave,8 Ave & W 31 St,1866,member
+ride_493124,classic_bike,2024-09-26 14:56:00,2024-09-26 15:26:54,University Pl & E 14 St,E 17 St & Broadway,1854,member
+ride_621841,classic_bike,2024-09-21 00:41:00,2024-09-21 01:04:36,W 72 St & Columbus Ave,Central Park S & 6 Ave,1416,member
+ride_661147,electric_bike,2024-09-23 14:35:00,2024-09-23 14:57:48,W 72 St & Columbus Ave,Central Park S & 6 Ave,1368,member
+ride_791309,classic_bike,2024-09-19 22:59:00,2024-09-19 23:29:36,W 21 St & 6 Ave,Hudson St & Reade St,1836,member
+ride_571578,classic_bike,2024-09-30 20:36:00,2024-09-30 20:57:00,Broadway & W 60 St,W 21 St & 6 Ave,1260,member
+ride_250219,classic_bike,2024-09-28 00:13:00,2024-09-28 00:54:36,Central Park S & 6 Ave,W 41 St & 8 Ave,2496,member
+ride_205428,classic_bike,2024-09-20 22:44:00,2024-09-20 23:04:18,W 41 St & 8 Ave,Hudson St & Reade St,1218,member
+ride_517035,classic_bike,2024-09-12 01:14:00,2024-09-12 01:33:48,E 17 St & Broadway,W 72 St & Columbus Ave,1188,member
+ride_275377,electric_bike,2024-09-25 21:56:00,2024-09-25 22:01:00,Fulton St & Broadway,Hudson St & Reade St,300,member
+ride_377405,classic_bike,2024-09-16 14:44:00,2024-09-16 15:04:30,E 17 St & Broadway,Broadway & W 60 St,1230,member
+ride_570392,classic_bike,2024-09-28 16:38:00,2024-09-28 17:17:24,8 Ave & W 31 St,Hudson St & Reade St,2364,member
+ride_465249,classic_bike,2024-09-06 15:00:00,2024-09-06 15:28:36,E 17 St & Broadway,Central Park S & 6 Ave,1716,member
+ride_284692,electric_bike,2024-09-22 00:59:00,2024-09-22 01:21:42,8 Ave & W 31 St,Fulton St & Broadway,1362,member
+ride_620248,classic_bike,2024-09-13 22:34:00,2024-09-13 22:52:00,W 72 St & Columbus Ave,E 17 St & Broadway,1080,member
+ride_299254,classic_bike,2024-09-07 17:51:00,2024-09-07 18:13:48,W 21 St & 6 Ave,Broadway & W 60 St,1368,member
+ride_806033,classic_bike,2024-09-19 16:06:00,2024-09-19 16:31:24,E 17 St & Broadway,W 72 St & Columbus Ave,1524,member
+ride_640490,electric_bike,2024-09-21 21:40:00,2024-09-21 21:57:36,E 17 St & Broadway,W 41 St & 8 Ave,1056,member
+ride_550770,classic_bike,2024-09-19 22:30:00,2024-09-19 22:58:00,Broadway & W 60 St,Central Park S & 6 Ave,1680,member
+ride_547470,classic_bike,2024-09-28 23:05:00,2024-09-28 23:10:48,W 72 St & Columbus Ave,Hudson St & Reade St,348,member
+ride_701334,classic_bike,2024-09-14 20:05:00,2024-09-14 20:40:00,Broadway & W 60 St,E 17 St & Broadway,2100,member
+ride_557007,classic_bike,2024-09-07 23:44:00,2024-09-07 23:50:12,Central Park S & 6 Ave,W 41 St & 8 Ave,372,member
+ride_503159,classic_bike,2024-09-02 21:32:00,2024-09-02 22:08:06,E 17 St & Broadway,W 72 St & Columbus Ave,2166,member
+ride_705526,classic_bike,2024-09-27 02:33:00,2024-09-27 03:11:12,W 72 St & Columbus Ave,W 41 St & 8 Ave,2292,member
+ride_983794,classic_bike,2024-09-14 15:42:00,2024-09-14 16:31:42,Central Park S & 6 Ave,University Pl & E 14 St,2982,casual
+ride_262246,electric_bike,2024-09-04 14:48:00,2024-09-04 15:04:00,Hudson St & Reade St,Central Park S & 6 Ave,960,member
+ride_404466,classic_bike,2024-09-29 20:15:00,2024-09-29 20:42:06,Hudson St & Reade St,W 72 St & Columbus Ave,1626,member
+ride_736565,classic_bike,2024-09-13 15:47:00,2024-09-13 15:59:36,University Pl & E 14 St,Hudson St & Reade St,756,member
+ride_568238,electric_bike,2024-09-07 19:07:00,2024-09-07 19:40:54,Fulton St & Broadway,8 Ave & W 31 St,2034,member
+ride_117233,classic_bike,2024-09-02 21:10:00,2024-09-02 21:34:24,Fulton St & Broadway,W 72 St & Columbus Ave,1464,member
+ride_531071,classic_bike,2024-09-08 21:56:00,2024-09-08 22:19:18,W 41 St & 8 Ave,Fulton St & Broadway,1398,member
+ride_156304,classic_bike,2024-09-05 02:38:00,2024-09-05 03:03:06,Hudson St & Reade St,W 41 St & 8 Ave,1506,member
+ride_588899,classic_bike,2024-09-09 18:05:00,2024-09-09 18:13:36,Broadway & W 60 St,Fulton St & Broadway,516,member
+ride_952547,classic_bike,2024-09-18 03:05:00,2024-09-18 03:31:06,W 72 St & Columbus Ave,Central Park S & 6 Ave,1566,member
+ride_575435,classic_bike,2024-09-12 01:37:00,2024-09-12 02:26:36,University Pl & E 14 St,Broadway & W 60 St,2976,casual
+ride_246570,classic_bike,2024-09-30 17:15:00,2024-09-30 17:32:30,8 Ave & W 31 St,W 72 St & Columbus Ave,1050,member
+ride_574751,classic_bike,2024-10-01 18:50:00,2024-10-01 19:16:42,W 41 St & 8 Ave,University Pl & E 14 St,1602,member
+ride_701949,classic_bike,2024-09-06 22:48:00,2024-09-06 23:08:42,E 17 St & Broadway,W 21 St & 6 Ave,1242,member
+ride_443254,classic_bike,2024-09-11 00:57:00,2024-09-11 01:24:54,Broadway & W 60 St,Fulton St & Broadway,1674,member
+ride_777513,electric_bike,2024-09-05 15:51:00,2024-09-05 16:23:06,E 17 St & Broadway,W 72 St & Columbus Ave,1926,member
+ride_516359,electric_bike,2024-09-19 18:02:00,2024-09-19 18:24:06,W 41 St & 8 Ave,E 17 St & Broadway,1326,member
+ride_192410,electric_bike,2024-09-22 20:31:00,2024-09-22 20:57:48,Fulton St & Broadway,W 41 St & 8 Ave,1608,member
+ride_468074,electric_bike,2024-09-09 01:14:00,2024-09-09 01:35:24,Broadway & W 60 St,University Pl & E 14 St,1284,member
+ride_552248,electric_bike,2024-09-15 23:04:00,2024-09-15 23:32:54,Central Park S & 6 Ave,University Pl & E 14 St,1734,member
+ride_845957,classic_bike,2024-09-24 01:00:00,2024-09-24 01:18:54,Hudson St & Reade St,E 17 St & Broadway,1134,member
+ride_584172,electric_bike,2024-10-01 14:52:00,2024-10-01 15:17:18,E 17 St & Broadway,W 41 St & 8 Ave,1518,member
+ride_955088,classic_bike,2024-09-21 04:09:00,2024-09-21 04:19:24,W 41 St & 8 Ave,Fulton St & Broadway,624,member
+ride_897423,classic_bike,2024-09-23 20:07:00,2024-09-23 20:33:54,Central Park S & 6 Ave,W 72 St & Columbus Ave,1614,member
+ride_929822,classic_bike,2024-09-27 17:31:00,2024-09-27 17:56:06,E 17 St & Broadway,University Pl & E 14 St,1506,member
+ride_693418,classic_bike,2024-09-19 20:39:00,2024-09-19 20:59:36,Hudson St & Reade St,University Pl & E 14 St,1236,member
+ride_221552,classic_bike,2024-09-27 21:35:00,2024-09-27 22:07:48,Broadway & W 60 St,University Pl & E 14 St,1967,member
+ride_510133,classic_bike,2024-09-04 23:03:00,2024-09-04 23:13:36,Fulton St & Broadway,W 41 St & 8 Ave,636,member
+ride_757685,classic_bike,2024-09-30 00:07:00,2024-09-30 00:38:00,W 72 St & Columbus Ave,W 41 St & 8 Ave,1860,member
+ride_464069,classic_bike,2024-09-19 01:49:00,2024-09-19 02:17:24,W 72 St & Columbus Ave,W 21 St & 6 Ave,1704,member
+ride_507723,classic_bike,2024-09-14 02:09:00,2024-09-14 02:27:18,Fulton St & Broadway,University Pl & E 14 St,1098,member
+ride_172965,classic_bike,2024-09-09 14:41:00,2024-09-09 15:08:00,W 72 St & Columbus Ave,University Pl & E 14 St,1620,member
+ride_952993,classic_bike,2024-09-19 21:09:00,2024-09-19 21:37:06,Central Park S & 6 Ave,8 Ave & W 31 St,1686,member
+ride_444061,classic_bike,2024-09-17 18:43:00,2024-09-17 19:07:18,Broadway & W 60 St,W 41 St & 8 Ave,1458,member
+ride_232378,classic_bike,2024-09-12 03:11:00,2024-09-12 03:36:36,Fulton St & Broadway,W 21 St & 6 Ave,1536,member
+ride_895667,electric_bike,2024-09-06 01:37:00,2024-09-06 02:38:18,Broadway & W 60 St,W 21 St & 6 Ave,3678,casual
+ride_796212,classic_bike,2024-09-29 18:44:00,2024-09-29 18:55:18,Central Park S & 6 Ave,W 41 St & 8 Ave,678,member
+ride_365971,classic_bike,2024-09-06 23:05:00,2024-09-06 23:43:06,University Pl & E 14 St,W 41 St & 8 Ave,2286,member
+ride_725550,classic_bike,2024-09-12 15:46:00,2024-09-12 16:16:54,W 21 St & 6 Ave,8 Ave & W 31 St,1854,member
+ride_589491,classic_bike,2024-09-20 20:06:00,2024-09-20 20:27:06,Fulton St & Broadway,W 72 St & Columbus Ave,1266,member
+ride_151328,classic_bike,2024-09-07 03:50:00,2024-09-07 04:19:30,University Pl & E 14 St,W 72 St & Columbus Ave,1770,member
+ride_820184,classic_bike,2024-09-30 20:36:00,2024-09-30 20:55:18,W 41 St & 8 Ave,8 Ave & W 31 St,1158,member
+ride_195674,electric_bike,2024-09-24 23:11:00,2024-09-24 23:27:00,University Pl & E 14 St,Hudson St & Reade St,960,member
+ride_633469,electric_bike,2024-09-30 18:40:00,2024-09-30 18:57:36,8 Ave & W 31 St,University Pl & E 14 St,1056,member
+ride_898975,classic_bike,2024-09-24 15:43:00,2024-09-24 16:35:24,Broadway & W 60 St,W 72 St & Columbus Ave,3144,casual
+ride_434617,electric_bike,2024-09-17 16:53:00,2024-09-17 17:25:30,Hudson St & Reade St,E 17 St & Broadway,1950,member
+ride_697766,classic_bike,2024-09-03 23:38:00,2024-09-04 00:12:42,Central Park S & 6 Ave,W 21 St & 6 Ave,2082,member
+ride_694223,classic_bike,2024-09-03 04:15:00,2024-09-03 04:44:54,8 Ave & W 31 St,Broadway & W 60 St,1794,member
+ride_408036,electric_bike,2024-09-17 02:35:00,2024-09-17 02:56:30,8 Ave & W 31 St,W 72 St & Columbus Ave,1290,member
+ride_651640,classic_bike,2024-09-21 16:46:00,2024-09-21 17:13:36,8 Ave & W 31 St,Fulton St & Broadway,1656,member
+ride_579123,classic_bike,2024-09-12 23:07:00,2024-09-12 23:27:12,E 17 St & Broadway,W 72 St & Columbus Ave,1212,member
+ride_257131,classic_bike,2024-09-10 15:33:00,2024-09-10 16:03:12,W 72 St & Columbus Ave,Hudson St & Reade St,1812,member
+ride_971084,classic_bike,2024-09-24 04:07:00,2024-09-24 04:27:36,W 41 St & 8 Ave,Central Park S & 6 Ave,1236,member
+ride_888795,classic_bike,2024-10-01 19:31:00,2024-10-01 19:45:18,W 72 St & Columbus Ave,8 Ave & W 31 St,858,member
+ride_895794,classic_bike,2024-09-26 01:14:00,2024-09-26 01:51:06,W 41 St & 8 Ave,W 21 St & 6 Ave,2226,member
+ride_479781,classic_bike,2024-09-21 00:51:00,2024-09-21 01:21:18,E 17 St & Broadway,Fulton St & Broadway,1818,member
+ride_374258,classic_bike,2024-09-03 18:51:00,2024-09-03 19:12:36,W 72 St & Columbus Ave,W 21 St & 6 Ave,1296,member
+ride_717024,electric_bike,2024-09-04 15:45:00,2024-09-04 16:08:12,Hudson St & Reade St,Central Park S & 6 Ave,1392,member
+ride_329344,classic_bike,2024-09-18 14:56:00,2024-09-18 15:25:18,8 Ave & W 31 St,W 21 St & 6 Ave,1758,member
+ride_108203,classic_bike,2024-09-26 18:40:00,2024-09-26 18:52:42,W 72 St & Columbus Ave,Hudson St & Reade St,762,member
+ride_102260,classic_bike,2024-09-14 22:00:00,2024-09-14 22:23:48,8 Ave & W 31 St,Fulton St & Broadway,1428,member
+ride_676429,classic_bike,2024-09-27 22:48:00,2024-09-27 23:12:36,Fulton St & Broadway,Hudson St & Reade St,1476,member
+ride_777558,electric_bike,2024-09-29 22:42:00,2024-09-29 22:54:24,University Pl & E 14 St,Broadway & W 60 St,744,member
+ride_311883,electric_bike,2024-09-18 00:46:00,2024-09-18 01:14:24,Fulton St & Broadway,Central Park S & 6 Ave,1704,member
+ride_870571,classic_bike,2024-09-23 00:14:00,2024-09-23 00:38:06,W 41 St & 8 Ave,Broadway & W 60 St,1446,member
+ride_965322,classic_bike,2024-09-12 00:08:00,2024-09-12 00:29:54,W 72 St & Columbus Ave,W 21 St & 6 Ave,1314,member
+ride_448354,classic_bike,2024-09-19 15:38:00,2024-09-19 15:52:36,W 21 St & 6 Ave,Fulton St & Broadway,876,member
+ride_585494,classic_bike,2024-09-20 22:38:00,2024-09-20 22:59:12,W 21 St & 6 Ave,W 41 St & 8 Ave,1272,member
+ride_832614,electric_bike,2024-09-07 21:07:00,2024-09-07 21:30:36,E 17 St & Broadway,W 41 St & 8 Ave,1416,member
+ride_264136,classic_bike,2024-09-14 17:46:00,2024-09-14 18:05:30,Hudson St & Reade St,E 17 St & Broadway,1170,member
+ride_986438,classic_bike,2024-09-06 01:00:00,2024-09-06 01:17:36,E 17 St & Broadway,University Pl & E 14 St,1056,member
+ride_901577,classic_bike,2024-09-11 03:06:00,2024-09-11 03:31:12,E 17 St & Broadway,W 72 St & Columbus Ave,1512,member
+ride_996865,electric_bike,2024-09-10 15:36:00,2024-09-10 16:27:18,Broadway & W 60 St,E 17 St & Broadway,3078,casual
+ride_316092,electric_bike,2024-09-24 00:56:00,2024-09-24 01:19:06,W 21 St & 6 Ave,Broadway & W 60 St,1386,member
+ride_359295,classic_bike,2024-09-13 18:11:00,2024-09-13 18:36:18,W 21 St & 6 Ave,E 17 St & Broadway,1518,member
+ride_887352,electric_bike,2024-09-22 15:38:00,2024-09-22 16:45:36,E 17 St & Broadway,W 72 St & Columbus Ave,4055,casual
+ride_525800,classic_bike,2024-09-18 19:05:00,2024-09-18 19:32:48,8 Ave & W 31 St,W 41 St & 8 Ave,1668,member
+ride_627335,classic_bike,2024-09-21 23:58:00,2024-09-22 00:25:54,Broadway & W 60 St,Fulton St & Broadway,1674,member
+ride_672092,classic_bike,2024-09-02 22:05:00,2024-09-02 22:24:12,E 17 St & Broadway,Central Park S & 6 Ave,1152,member
+ride_533321,classic_bike,2024-09-29 02:55:00,2024-09-29 03:26:54,Hudson St & Reade St,Fulton St & Broadway,1914,member
+ride_226601,classic_bike,2024-09-03 16:58:00,2024-09-03 17:22:24,W 41 St & 8 Ave,Fulton St & Broadway,1464,member
+ride_769737,electric_bike,2024-09-05 21:13:00,2024-09-05 21:32:18,Broadway & W 60 St,E 17 St & Broadway,1158,member
+ride_560485,electric_bike,2024-09-20 02:49:00,2024-09-20 02:57:00,W 72 St & Columbus Ave,Broadway & W 60 St,480,member
+ride_963355,classic_bike,2024-09-22 01:04:00,2024-09-22 01:20:24,Hudson St & Reade St,University Pl & E 14 St,983,member
+ride_757629,electric_bike,2024-09-13 23:56:00,2024-09-14 00:27:30,W 21 St & 6 Ave,Hudson St & Reade St,1890,member
+ride_906306,electric_bike,2024-10-01 02:53:00,2024-10-01 03:10:36,E 17 St & Broadway,8 Ave & W 31 St,1056,member
+ride_391773,classic_bike,2024-09-11 17:59:00,2024-09-11 18:27:42,W 41 St & 8 Ave,Fulton St & Broadway,1722,member
+ride_738577,electric_bike,2024-09-08 04:09:00,2024-09-08 04:35:18,Hudson St & Reade St,W 21 St & 6 Ave,1578,member
+ride_720148,electric_bike,2024-09-30 19:39:00,2024-09-30 19:52:36,Broadway & W 60 St,W 41 St & 8 Ave,816,member
+ride_593355,electric_bike,2024-09-24 00:47:00,2024-09-24 01:12:30,W 21 St & 6 Ave,Central Park S & 6 Ave,1530,member
+ride_449759,classic_bike,2024-09-30 18:33:00,2024-09-30 19:02:00,W 21 St & 6 Ave,E 17 St & Broadway,1740,member
+ride_648913,classic_bike,2024-09-04 20:30:00,2024-09-04 20:47:30,8 Ave & W 31 St,E 17 St & Broadway,1050,member
+ride_731728,classic_bike,2024-09-28 20:53:00,2024-09-28 21:17:00,8 Ave & W 31 St,Broadway & W 60 St,1440,member
+ride_326130,classic_bike,2024-09-29 23:30:00,2024-09-29 23:56:18,W 21 St & 6 Ave,W 41 St & 8 Ave,1578,member
+ride_656278,classic_bike,2024-09-22 19:53:00,2024-09-22 20:18:12,8 Ave & W 31 St,E 17 St & Broadway,1512,member
+ride_550961,classic_bike,2024-09-28 23:08:00,2024-09-28 23:17:06,Hudson St & Reade St,Central Park S & 6 Ave,546,member
+ride_130610,electric_bike,2024-09-12 17:55:00,2024-09-12 18:13:30,University Pl & E 14 St,Fulton St & Broadway,1110,member
+ride_563864,electric_bike,2024-09-17 02:39:00,2024-09-17 02:59:18,E 17 St & Broadway,University Pl & E 14 St,1218,member
+ride_407757,classic_bike,2024-09-24 01:38:00,2024-09-24 02:27:06,W 41 St & 8 Ave,E 17 St & Broadway,2946,casual
+ride_711868,electric_bike,2024-09-06 01:07:00,2024-09-06 01:27:42,Central Park S & 6 Ave,W 21 St & 6 Ave,1242,member
+ride_177449,classic_bike,2024-09-22 19:12:00,2024-09-22 19:48:24,Hudson St & Reade St,8 Ave & W 31 St,2184,member
+ride_310548,electric_bike,2024-09-30 19:38:00,2024-09-30 20:05:36,University Pl & E 14 St,8 Ave & W 31 St,1656,member
+ride_305837,classic_bike,2024-09-08 17:52:00,2024-09-08 18:23:12,E 17 St & Broadway,W 41 St & 8 Ave,1872,member
+ride_643269,electric_bike,2024-09-06 23:41:00,2024-09-07 00:03:30,W 21 St & 6 Ave,8 Ave & W 31 St,1350,member
+ride_886530,electric_bike,2024-09-05 19:02:00,2024-09-05 19:33:48,E 17 St & Broadway,Central Park S & 6 Ave,1908,member
+ride_421384,classic_bike,2024-09-17 19:36:00,2024-09-17 19:54:48,W 41 St & 8 Ave,Broadway & W 60 St,1128,member
+ride_772642,classic_bike,2024-09-11 00:42:00,2024-09-11 00:58:48,Broadway & W 60 St,University Pl & E 14 St,1008,member
+ride_843167,electric_bike,2024-09-03 01:49:00,2024-09-03 02:03:06,Hudson St & Reade St,Fulton St & Broadway,846,member
+ride_612262,electric_bike,2024-09-29 19:43:00,2024-09-29 20:00:24,Broadway & W 60 St,W 72 St & Columbus Ave,1044,member
+ride_445705,electric_bike,2024-09-09 02:51:00,2024-09-09 03:11:54,W 41 St & 8 Ave,E 17 St & Broadway,1254,member
+ride_681141,classic_bike,2024-09-13 20:36:00,2024-09-13 21:01:48,E 17 St & Broadway,University Pl & E 14 St,1548,member
+ride_938338,electric_bike,2024-09-14 15:15:00,2024-09-14 15:38:24,E 17 St & Broadway,8 Ave & W 31 St,1404,member
+ride_124813,classic_bike,2024-09-09 21:52:00,2024-09-09 22:24:12,Central Park S & 6 Ave,Broadway & W 60 St,1932,member
+ride_785491,classic_bike,2024-09-25 18:14:00,2024-09-25 18:44:00,Broadway & W 60 St,E 17 St & Broadway,1800,member
+ride_948799,classic_bike,2024-09-22 17:45:00,2024-09-22 18:02:30,E 17 St & Broadway,W 21 St & 6 Ave,1050,member
+ride_853504,electric_bike,2024-09-28 18:42:00,2024-09-28 19:06:36,Fulton St & Broadway,Broadway & W 60 St,1476,member
+ride_985447,classic_bike,2024-09-15 17:38:00,2024-09-15 18:03:48,E 17 St & Broadway,W 41 St & 8 Ave,1548,member
+ride_651033,classic_bike,2024-09-09 03:04:00,2024-09-09 03:30:48,W 72 St & Columbus Ave,E 17 St & Broadway,1608,member
+ride_837852,classic_bike,2024-09-18 15:30:00,2024-09-18 15:43:30,University Pl & E 14 St,W 72 St & Columbus Ave,810,member
+ride_952227,classic_bike,2024-09-11 02:44:00,2024-09-11 03:16:12,E 17 St & Broadway,W 41 St & 8 Ave,1932,member
+ride_332785,classic_bike,2024-09-03 20:36:00,2024-09-03 20:53:30,E 17 St & Broadway,W 41 St & 8 Ave,1050,member
+ride_741003,electric_bike,2024-09-16 21:37:00,2024-09-16 21:57:48,W 41 St & 8 Ave,Fulton St & Broadway,1248,member
+ride_804758,classic_bike,2024-09-18 22:09:00,2024-09-18 22:36:36,W 72 St & Columbus Ave,E 17 St & Broadway,1656,member
+ride_886197,classic_bike,2024-09-12 03:46:00,2024-09-12 04:03:24,W 41 St & 8 Ave,8 Ave & W 31 St,1044,member
+ride_802667,classic_bike,2024-09-13 00:15:00,2024-09-13 00:43:24,W 41 St & 8 Ave,8 Ave & W 31 St,1704,member
+ride_828449,classic_bike,2024-09-10 02:35:00,2024-09-10 02:48:42,Hudson St & Reade St,Broadway & W 60 St,822,member
+ride_184714,electric_bike,2024-09-25 16:01:00,2024-09-25 16:22:24,Fulton St & Broadway,E 17 St & Broadway,1284,member
+ride_501058,classic_bike,2024-09-17 20:41:00,2024-09-17 21:02:18,University Pl & E 14 St,W 41 St & 8 Ave,1278,member
+ride_877236,electric_bike,2024-10-02 02:38:00,2024-10-02 03:04:36,Broadway & W 60 St,8 Ave & W 31 St,1596,member
+ride_572407,electric_bike,2024-09-05 00:11:00,2024-09-05 00:37:06,8 Ave & W 31 St,W 21 St & 6 Ave,1566,member
+ride_526156,classic_bike,2024-09-13 22:30:00,2024-09-13 22:57:36,Central Park S & 6 Ave,8 Ave & W 31 St,1656,member
+ride_425845,electric_bike,2024-10-01 15:10:00,2024-10-01 15:41:42,Central Park S & 6 Ave,8 Ave & W 31 St,1902,member
+ride_744274,classic_bike,2024-09-10 01:05:00,2024-09-10 01:23:54,8 Ave & W 31 St,W 41 St & 8 Ave,1134,member
+ride_565504,classic_bike,2024-09-23 17:13:00,2024-09-23 17:27:30,W 41 St & 8 Ave,University Pl & E 14 St,870,member
+ride_600905,classic_bike,2024-09-21 00:58:00,2024-09-21 01:32:18,University Pl & E 14 St,8 Ave & W 31 St,2058,member
+ride_295892,classic_bike,2024-09-15 02:53:00,2024-09-15 03:07:30,University Pl & E 14 St,W 41 St & 8 Ave,870,member
+ride_587623,classic_bike,2024-09-14 17:31:00,2024-09-14 17:48:42,E 17 St & Broadway,Broadway & W 60 St,1062,member
+ride_662761,electric_bike,2024-09-23 22:08:00,2024-09-23 22:28:48,Fulton St & Broadway,Broadway & W 60 St,1248,member
+ride_876513,electric_bike,2024-09-24 15:36:00,2024-09-24 15:50:48,W 21 St & 6 Ave,Broadway & W 60 St,888,member
+ride_161324,classic_bike,2024-09-17 02:05:00,2024-09-17 02:22:06,Broadway & W 60 St,Central Park S & 6 Ave,1026,member
+ride_540226,electric_bike,2024-09-10 17:10:00,2024-09-10 17:35:30,Central Park S & 6 Ave,Fulton St & Broadway,1530,member
+ride_131244,electric_bike,2024-09-04 01:47:00,2024-09-04 02:47:30,University Pl & E 14 St,W 21 St & 6 Ave,3630,casual
+ride_807617,classic_bike,2024-09-06 20:13:00,2024-09-06 20:35:00,W 41 St & 8 Ave,E 17 St & Broadway,1320,member
+ride_916808,electric_bike,2024-09-28 00:08:00,2024-09-28 00:24:12,W 72 St & Columbus Ave,Broadway & W 60 St,972,member
+ride_636004,classic_bike,2024-09-21 03:07:00,2024-09-21 03:23:30,Fulton St & Broadway,Central Park S & 6 Ave,990,member
+ride_541557,classic_bike,2024-09-17 16:34:00,2024-09-17 16:51:30,University Pl & E 14 St,Broadway & W 60 St,1050,member
+ride_416282,electric_bike,2024-09-23 22:44:00,2024-09-23 23:08:06,W 21 St & 6 Ave,W 72 St & Columbus Ave,1446,member
+ride_612340,classic_bike,2024-09-28 01:46:00,2024-09-28 02:37:42,W 72 St & Columbus Ave,W 41 St & 8 Ave,3102,casual
+ride_431737,electric_bike,2024-09-21 15:56:00,2024-09-21 16:28:48,W 72 St & Columbus Ave,Hudson St & Reade St,1967,member
+ride_361805,electric_bike,2024-09-07 02:56:00,2024-09-07 03:39:48,8 Ave & W 31 St,Central Park S & 6 Ave,2628,member
+ride_587686,classic_bike,2024-09-20 14:41:00,2024-09-20 15:04:36,University Pl & E 14 St,E 17 St & Broadway,1416,member
+ride_138479,classic_bike,2024-09-26 15:40:00,2024-09-26 15:56:06,University Pl & E 14 St,W 72 St & Columbus Ave,966,member
+ride_603110,classic_bike,2024-09-13 19:15:00,2024-09-13 19:35:18,Fulton St & Broadway,W 41 St & 8 Ave,1218,member
+ride_146489,electric_bike,2024-09-09 02:12:00,2024-09-09 02:24:30,W 41 St & 8 Ave,8 Ave & W 31 St,750,member
+ride_379676,classic_bike,2024-09-15 22:14:00,2024-09-15 22:39:06,W 41 St & 8 Ave,W 72 St & Columbus Ave,1506,member
+ride_552855,classic_bike,2024-10-01 21:34:00,2024-10-01 22:02:24,E 17 St & Broadway,8 Ave & W 31 St,1704,member
+ride_188025,classic_bike,2024-09-10 00:04:00,2024-09-10 00:33:36,University Pl & E 14 St,W 21 St & 6 Ave,1776,member
+ride_206851,classic_bike,2024-09-18 01:42:00,2024-09-18 02:03:12,W 72 St & Columbus Ave,Central Park S & 6 Ave,1272,member
+ride_772464,classic_bike,2024-09-26 19:06:00,2024-09-26 19:13:18,Broadway & W 60 St,Hudson St & Reade St,438,member
+ride_483713,electric_bike,2024-09-24 14:36:00,2024-09-24 14:43:00,W 41 St & 8 Ave,Fulton St & Broadway,420,member
+ride_867460,classic_bike,2024-09-30 01:37:00,2024-09-30 02:33:54,E 17 St & Broadway,8 Ave & W 31 St,3414,casual
+ride_806396,classic_bike,2024-09-06 01:42:00,2024-09-06 02:06:48,Broadway & W 60 St,Fulton St & Broadway,1488,member
+ride_216276,classic_bike,2024-09-14 21:56:00,2024-09-14 22:16:06,W 41 St & 8 Ave,Fulton St & Broadway,1206,member
+ride_684482,electric_bike,2024-09-26 20:44:00,2024-09-26 21:15:00,Fulton St & Broadway,W 21 St & 6 Ave,1860,member
+ride_806707,classic_bike,2024-09-12 20:06:00,2024-09-12 20:14:24,8 Ave & W 31 St,W 21 St & 6 Ave,504,member
+ride_362552,classic_bike,2024-09-17 01:38:00,2024-09-17 02:05:00,E 17 St & Broadway,University Pl & E 14 St,1620,member
+ride_364236,electric_bike,2024-09-09 16:05:00,2024-09-09 16:24:36,University Pl & E 14 St,Broadway & W 60 St,1176,member
+ride_833247,classic_bike,2024-09-25 21:06:00,2024-09-25 21:23:36,W 72 St & Columbus Ave,Broadway & W 60 St,1056,member
+ride_808011,classic_bike,2024-09-20 03:41:00,2024-09-20 04:02:42,W 72 St & Columbus Ave,E 17 St & Broadway,1302,member
+ride_400009,classic_bike,2024-09-12 22:55:00,2024-09-12 23:27:00,W 21 St & 6 Ave,Broadway & W 60 St,1920,member
+ride_570405,classic_bike,2024-09-11 01:51:00,2024-09-11 02:14:12,Central Park S & 6 Ave,W 72 St & Columbus Ave,1392,member
+ride_618392,electric_bike,2024-09-24 23:34:00,2024-09-24 23:40:00,Central Park S & 6 Ave,Fulton St & Broadway,360,member
+ride_304110,classic_bike,2024-09-25 14:55:00,2024-09-25 15:24:00,W 72 St & Columbus Ave,Hudson St & Reade St,1740,member
+ride_571932,classic_bike,2024-09-30 04:05:00,2024-09-30 04:15:54,8 Ave & W 31 St,Hudson St & Reade St,654,member
+ride_329642,classic_bike,2024-09-28 02:01:00,2024-09-28 02:21:24,Central Park S & 6 Ave,University Pl & E 14 St,1224,member
+ride_404309,classic_bike,2024-09-18 17:59:00,2024-09-18 18:27:18,E 17 St & Broadway,W 21 St & 6 Ave,1698,member
+ride_461724,electric_bike,2024-09-05 22:13:00,2024-09-05 22:30:42,Hudson St & Reade St,8 Ave & W 31 St,1062,member
+ride_405407,classic_bike,2024-09-15 14:56:00,2024-09-15 15:14:00,W 72 St & Columbus Ave,Fulton St & Broadway,1080,member
+ride_777273,classic_bike,2024-09-23 01:00:00,2024-09-23 01:16:42,W 41 St & 8 Ave,Broadway & W 60 St,1002,member
+ride_441716,classic_bike,2024-09-24 02:10:00,2024-09-24 02:38:36,W 72 St & Columbus Ave,Central Park S & 6 Ave,1716,member
+ride_461264,classic_bike,2024-09-15 18:07:00,2024-09-15 18:17:00,W 21 St & 6 Ave,Fulton St & Broadway,600,member
+ride_617488,electric_bike,2024-09-20 01:42:00,2024-09-20 02:44:18,8 Ave & W 31 St,W 72 St & Columbus Ave,3738,casual
+ride_210790,electric_bike,2024-09-02 18:44:00,2024-09-02 19:10:48,E 17 St & Broadway,Central Park S & 6 Ave,1608,member
+ride_649414,classic_bike,2024-09-23 20:36:00,2024-09-23 20:57:00,University Pl & E 14 St,Fulton St & Broadway,1260,member
+ride_916232,classic_bike,2024-09-25 20:45:00,2024-09-25 21:11:36,W 21 St & 6 Ave,8 Ave & W 31 St,1596,member
+ride_612311,classic_bike,2024-09-27 22:42:00,2024-09-27 23:17:54,Central Park S & 6 Ave,Fulton St & Broadway,2154,member
+ride_242321,classic_bike,2024-09-27 19:14:00,2024-09-27 19:45:18,Central Park S & 6 Ave,E 17 St & Broadway,1878,member
+ride_481657,classic_bike,2024-09-16 22:30:00,2024-09-16 23:07:18,W 21 St & 6 Ave,Hudson St & Reade St,2238,member
+ride_815707,electric_bike,2024-09-13 23:38:00,2024-09-13 23:51:42,Fulton St & Broadway,W 41 St & 8 Ave,822,member
+ride_794963,classic_bike,2024-09-14 19:33:00,2024-09-14 19:50:48,Fulton St & Broadway,E 17 St & Broadway,1068,member
+ride_425138,classic_bike,2024-09-11 17:32:00,2024-09-11 17:57:54,W 21 St & 6 Ave,University Pl & E 14 St,1554,member
+ride_317413,electric_bike,2024-09-10 01:33:00,2024-09-10 02:05:00,8 Ave & W 31 St,W 72 St & Columbus Ave,1920,member
+ride_785280,electric_bike,2024-09-18 21:54:00,2024-09-18 22:07:24,Hudson St & Reade St,8 Ave & W 31 St,804,member
+ride_436241,electric_bike,2024-09-22 04:11:00,2024-09-22 04:43:54,8 Ave & W 31 St,W 41 St & 8 Ave,1974,member
+ride_856086,classic_bike,2024-09-04 00:37:00,2024-09-04 00:49:36,W 41 St & 8 Ave,Fulton St & Broadway,756,member
+ride_526673,classic_bike,2024-09-22 00:38:00,2024-09-22 00:58:00,Hudson St & Reade St,8 Ave & W 31 St,1200,member
+ride_904711,classic_bike,2024-09-06 22:53:00,2024-09-06 23:19:54,University Pl & E 14 St,W 72 St & Columbus Ave,1614,member
+ride_314353,electric_bike,2024-09-17 00:49:00,2024-09-17 01:18:42,W 21 St & 6 Ave,E 17 St & Broadway,1782,member
+ride_793169,classic_bike,2024-09-19 17:04:00,2024-09-19 17:30:00,8 Ave & W 31 St,E 17 St & Broadway,1560,member
+ride_916449,electric_bike,2024-09-26 15:50:00,2024-09-26 16:36:42,8 Ave & W 31 St,W 72 St & Columbus Ave,2802,casual
+ride_575458,electric_bike,2024-09-12 18:15:00,2024-09-12 18:34:00,Fulton St & Broadway,W 21 St & 6 Ave,1140,member
+ride_377312,classic_bike,2024-09-28 01:05:00,2024-09-28 01:30:48,E 17 St & Broadway,Central Park S & 6 Ave,1548,member
+ride_948611,classic_bike,2024-09-11 15:31:00,2024-09-11 16:03:54,Central Park S & 6 Ave,Hudson St & Reade St,1974,member
+ride_385765,classic_bike,2024-10-01 17:04:00,2024-10-01 17:29:36,Hudson St & Reade St,W 72 St & Columbus Ave,1536,member
+ride_665427,electric_bike,2024-09-06 14:51:00,2024-09-06 15:18:18,Fulton St & Broadway,Central Park S & 6 Ave,1638,member
+ride_256445,electric_bike,2024-09-10 00:10:00,2024-09-10 00:28:42,W 21 St & 6 Ave,Central Park S & 6 Ave,1122,member
+ride_630538,electric_bike,2024-09-19 22:57:00,2024-09-19 23:10:12,W 41 St & 8 Ave,E 17 St & Broadway,792,member
+ride_220351,electric_bike,2024-09-18 03:10:00,2024-09-18 03:38:18,Central Park S & 6 Ave,Fulton St & Broadway,1698,member
+ride_946335,electric_bike,2024-09-08 01:42:00,2024-09-08 02:27:06,W 41 St & 8 Ave,Broadway & W 60 St,2706,casual
+ride_701253,classic_bike,2024-09-21 03:32:00,2024-09-21 03:45:48,W 41 St & 8 Ave,Fulton St & Broadway,828,member
+ride_823846,electric_bike,2024-09-23 21:52:00,2024-09-23 22:14:54,Broadway & W 60 St,Fulton St & Broadway,1374,member
+ride_813341,electric_bike,2024-09-11 16:50:00,2024-09-11 16:56:48,Fulton St & Broadway,E 17 St & Broadway,408,member
+ride_910616,classic_bike,2024-09-16 01:04:00,2024-09-16 01:20:12,University Pl & E 14 St,W 41 St & 8 Ave,972,member
+ride_152578,classic_bike,2024-09-18 00:04:00,2024-09-18 00:18:06,W 41 St & 8 Ave,W 21 St & 6 Ave,846,member
+ride_201377,electric_bike,2024-09-28 00:13:00,2024-09-28 00:42:42,E 17 St & Broadway,Central Park S & 6 Ave,1782,member
+ride_800005,classic_bike,2024-09-27 17:37:00,2024-09-27 18:17:00,8 Ave & W 31 St,Hudson St & Reade St,2400,member
+ride_644676,classic_bike,2024-09-19 18:00:00,2024-09-19 18:08:42,8 Ave & W 31 St,Broadway & W 60 St,522,member
+ride_707727,classic_bike,2024-09-30 00:32:00,2024-09-30 00:45:42,Fulton St & Broadway,W 21 St & 6 Ave,822,member
+ride_312146,classic_bike,2024-09-15 16:58:00,2024-09-15 17:23:12,W 21 St & 6 Ave,Fulton St & Broadway,1512,member
+ride_361941,classic_bike,2024-09-11 16:57:00,2024-09-11 17:15:18,Broadway & W 60 St,Hudson St & Reade St,1098,member
+ride_921609,classic_bike,2024-09-07 03:09:00,2024-09-07 03:38:42,W 21 St & 6 Ave,W 41 St & 8 Ave,1782,member
+ride_952657,classic_bike,2024-09-21 19:04:00,2024-09-21 19:26:24,W 21 St & 6 Ave,W 72 St & Columbus Ave,1344,member
+ride_794083,electric_bike,2024-09-17 02:36:00,2024-09-17 02:48:00,Hudson St & Reade St,W 21 St & 6 Ave,720,member
+ride_487477,classic_bike,2024-09-25 18:38:00,2024-09-25 18:59:42,E 17 St & Broadway,Broadway & W 60 St,1302,member
+ride_680278,electric_bike,2024-09-26 20:50:00,2024-09-26 21:13:30,E 17 St & Broadway,Broadway & W 60 St,1410,member
+ride_532723,classic_bike,2024-09-03 03:44:00,2024-09-03 04:02:06,W 21 St & 6 Ave,W 72 St & Columbus Ave,1086,member
+ride_322423,classic_bike,2024-09-25 15:01:00,2024-09-25 15:19:00,8 Ave & W 31 St,Hudson St & Reade St,1080,member
+ride_535810,classic_bike,2024-09-15 16:14:00,2024-09-15 16:30:42,8 Ave & W 31 St,Hudson St & Reade St,1002,member
+ride_461145,electric_bike,2024-09-30 00:57:00,2024-09-30 01:25:42,Fulton St & Broadway,W 21 St & 6 Ave,1722,member
+ride_637333,classic_bike,2024-09-12 18:36:00,2024-09-12 19:01:30,Hudson St & Reade St,W 72 St & Columbus Ave,1530,member
+ride_468845,classic_bike,2024-09-06 03:06:00,2024-09-06 03:28:36,Fulton St & Broadway,W 21 St & 6 Ave,1356,member
+ride_711878,electric_bike,2024-09-18 15:34:00,2024-09-18 16:26:12,W 72 St & Columbus Ave,University Pl & E 14 St,3132,casual
+ride_710527,classic_bike,2024-09-29 00:39:00,2024-09-29 00:57:54,Fulton St & Broadway,Hudson St & Reade St,1134,member
+ride_573962,electric_bike,2024-09-22 15:34:00,2024-09-22 15:42:18,W 72 St & Columbus Ave,E 17 St & Broadway,498,member
+ride_642895,electric_bike,2024-09-25 15:31:00,2024-09-25 15:48:36,8 Ave & W 31 St,Hudson St & Reade St,1056,member
+ride_247442,electric_bike,2024-10-01 15:55:00,2024-10-01 16:31:06,E 17 St & Broadway,Central Park S & 6 Ave,2166,member
+ride_493663,classic_bike,2024-09-07 22:01:00,2024-09-07 22:20:42,W 41 St & 8 Ave,W 72 St & Columbus Ave,1182,member
+ride_335765,classic_bike,2024-09-26 16:06:00,2024-09-26 16:41:18,W 21 St & 6 Ave,W 41 St & 8 Ave,2118,member
+ride_266931,classic_bike,2024-09-07 16:51:00,2024-09-07 17:10:24,Central Park S & 6 Ave,W 41 St & 8 Ave,1164,member
+ride_779172,classic_bike,2024-09-02 22:30:00,2024-09-02 22:48:42,Fulton St & Broadway,E 17 St & Broadway,1122,member
+ride_926236,classic_bike,2024-09-25 01:32:00,2024-09-25 01:58:12,W 21 St & 6 Ave,Fulton St & Broadway,1572,member
+ride_344907,electric_bike,2024-09-10 03:42:00,2024-09-10 04:12:24,Central Park S & 6 Ave,Fulton St & Broadway,1824,member
+ride_153035,electric_bike,2024-09-15 18:11:00,2024-09-15 18:36:06,W 72 St & Columbus Ave,W 21 St & 6 Ave,1506,member
+ride_756401,classic_bike,2024-09-29 01:03:00,2024-09-29 01:26:12,Hudson St & Reade St,8 Ave & W 31 St,1392,member
+ride_651231,classic_bike,2024-09-03 15:34:00,2024-09-03 16:04:00,University Pl & E 14 St,Hudson St & Reade St,1800,member
+ride_908634,classic_bike,2024-09-12 21:42:00,2024-09-12 22:10:12,Central Park S & 6 Ave,W 41 St & 8 Ave,1692,member
+ride_110644,electric_bike,2024-09-26 19:46:00,2024-09-26 19:59:06,Broadway & W 60 St,W 72 St & Columbus Ave,786,member
+ride_929090,electric_bike,2024-09-05 02:13:00,2024-09-05 02:55:48,W 41 St & 8 Ave,E 17 St & Broadway,2568,member
+ride_734565,classic_bike,2024-09-05 15:57:00,2024-09-05 16:07:12,E 17 St & Broadway,University Pl & E 14 St,612,member
+ride_590755,classic_bike,2024-09-27 23:03:00,2024-09-27 23:13:54,8 Ave & W 31 St,W 72 St & Columbus Ave,654,member
+ride_770532,electric_bike,2024-09-20 01:52:00,2024-09-20 02:09:18,University Pl & E 14 St,Broadway & W 60 St,1038,member
+ride_349736,classic_bike,2024-09-27 00:54:00,2024-09-27 01:23:30,Central Park S & 6 Ave,W 72 St & Columbus Ave,1770,member
+ride_884229,electric_bike,2024-09-28 14:44:00,2024-09-28 15:13:42,W 41 St & 8 Ave,Hudson St & Reade St,1782,member
+ride_679958,classic_bike,2024-09-22 03:48:00,2024-09-22 04:19:30,W 41 St & 8 Ave,E 17 St & Broadway,1890,member
+ride_378428,electric_bike,2024-09-05 00:37:00,2024-09-05 01:09:30,W 21 St & 6 Ave,Hudson St & Reade St,1950,member
+ride_235215,classic_bike,2024-09-12 00:39:00,2024-09-12 00:58:36,Broadway & W 60 St,Fulton St & Broadway,1176,member
+ride_140804,electric_bike,2024-09-29 22:55:00,2024-09-29 23:10:00,W 21 St & 6 Ave,E 17 St & Broadway,900,member
+ride_652530,electric_bike,2024-09-15 19:13:00,2024-09-15 19:48:18,W 72 St & Columbus Ave,Fulton St & Broadway,2118,member
+ride_401036,classic_bike,2024-09-17 01:34:00,2024-09-17 01:53:18,Fulton St & Broadway,W 21 St & 6 Ave,1158,member
+ride_945742,classic_bike,2024-09-23 01:10:00,2024-09-23 01:29:24,Broadway & W 60 St,Central Park S & 6 Ave,1164,member
+ride_128941,electric_bike,2024-09-11 22:55:00,2024-09-11 23:20:54,Hudson St & Reade St,W 41 St & 8 Ave,1554,member
+ride_999312,classic_bike,2024-09-15 02:33:00,2024-09-15 03:05:48,W 21 St & 6 Ave,8 Ave & W 31 St,1967,member
+ride_861319,classic_bike,2024-09-06 18:56:00,2024-09-06 19:10:30,W 21 St & 6 Ave,W 41 St & 8 Ave,870,member
+ride_993892,classic_bike,2024-09-04 22:52:00,2024-09-04 23:19:18,Fulton St & Broadway,Broadway & W 60 St,1638,member
+ride_274044,electric_bike,2024-09-03 02:45:00,2024-09-03 03:10:18,W 41 St & 8 Ave,Fulton St & Broadway,1518,member
+ride_364679,classic_bike,2024-09-23 16:45:00,2024-09-23 17:15:00,W 72 St & Columbus Ave,Hudson St & Reade St,1800,member
+ride_819425,classic_bike,2024-09-24 22:11:00,2024-09-24 22:35:48,University Pl & E 14 St,Fulton St & Broadway,1488,member
+ride_970708,classic_bike,2024-09-10 02:38:00,2024-09-10 02:56:30,W 21 St & 6 Ave,E 17 St & Broadway,1110,member
+ride_340927,classic_bike,2024-09-29 03:57:00,2024-09-29 04:14:36,Hudson St & Reade St,W 21 St & 6 Ave,1056,member
+ride_463251,classic_bike,2024-09-25 02:45:00,2024-09-25 03:17:54,Central Park S & 6 Ave,W 72 St & Columbus Ave,1974,member
+ride_522179,electric_bike,2024-09-09 21:33:00,2024-09-09 21:58:24,E 17 St & Broadway,W 21 St & 6 Ave,1524,member
+ride_222343,classic_bike,2024-09-08 23:44:00,2024-09-08 23:59:12,Broadway & W 60 St,Fulton St & Broadway,912,member
+ride_261712,classic_bike,2024-09-09 18:15:00,2024-09-09 18:26:24,E 17 St & Broadway,W 41 St & 8 Ave,684,member
+ride_852470,classic_bike,2024-09-28 15:36:00,2024-09-28 15:57:48,W 72 St & Columbus Ave,Central Park S & 6 Ave,1308,member
+ride_515898,classic_bike,2024-09-09 01:37:00,2024-09-09 01:58:42,W 72 St & Columbus Ave,Central Park S & 6 Ave,1302,member
+ride_805668,electric_bike,2024-09-26 22:15:00,2024-09-26 22:40:36,E 17 St & Broadway,Fulton St & Broadway,1536,member
+ride_778428,electric_bike,2024-10-01 18:12:00,2024-10-01 18:20:00,W 41 St & 8 Ave,8 Ave & W 31 St,480,member
+ride_741674,classic_bike,2024-09-02 21:31:00,2024-09-02 21:46:18,Hudson St & Reade St,8 Ave & W 31 St,918,member
+ride_831076,classic_bike,2024-09-17 19:12:00,2024-09-17 19:28:42,W 41 St & 8 Ave,Fulton St & Broadway,1002,member
+ride_584714,electric_bike,2024-09-14 01:50:00,2024-09-14 02:37:54,Central Park S & 6 Ave,8 Ave & W 31 St,2874,casual
+ride_405844,classic_bike,2024-10-01 03:55:00,2024-10-01 04:26:12,8 Ave & W 31 St,Broadway & W 60 St,1872,member
+ride_274446,electric_bike,2024-09-17 16:10:00,2024-09-17 16:36:42,E 17 St & Broadway,Hudson St & Reade St,1602,member
+ride_649857,classic_bike,2024-09-23 02:13:00,2024-09-23 02:18:00,E 17 St & Broadway,8 Ave & W 31 St,300,member
+ride_584498,classic_bike,2024-09-11 22:40:00,2024-09-11 22:45:00,Hudson St & Reade St,University Pl & E 14 St,300,member
+ride_163406,classic_bike,2024-09-03 15:30:00,2024-09-03 16:01:06,Central Park S & 6 Ave,W 21 St & 6 Ave,1866,member
+ride_735863,classic_bike,2024-09-26 18:31:00,2024-09-26 19:04:36,W 21 St & 6 Ave,E 17 St & Broadway,2016,member
+ride_956253,classic_bike,2024-09-09 03:14:00,2024-09-09 03:48:36,Central Park S & 6 Ave,Broadway & W 60 St,2076,member
+ride_606384,classic_bike,2024-09-07 18:51:00,2024-09-07 19:18:06,Central Park S & 6 Ave,W 72 St & Columbus Ave,1626,member
+ride_915573,classic_bike,2024-09-16 01:46:00,2024-09-16 02:03:54,8 Ave & W 31 St,E 17 St & Broadway,1074,member
+ride_518084,classic_bike,2024-09-16 21:59:00,2024-09-16 22:24:06,W 41 St & 8 Ave,University Pl & E 14 St,1506,member
+ride_581894,classic_bike,2024-09-21 23:39:00,2024-09-22 00:03:48,Fulton St & Broadway,Broadway & W 60 St,1488,member
+ride_809570,electric_bike,2024-09-02 15:50:00,2024-09-02 16:52:06,8 Ave & W 31 St,E 17 St & Broadway,3726,casual
+ride_739427,classic_bike,2024-09-06 16:32:00,2024-09-06 16:54:06,Hudson St & Reade St,W 72 St & Columbus Ave,1326,member
+ride_350021,classic_bike,2024-10-01 18:45:00,2024-10-01 19:03:06,E 17 St & Broadway,W 21 St & 6 Ave,1086,member
+ride_738720,electric_bike,2024-09-12 15:50:00,2024-09-12 16:44:24,Broadway & W 60 St,E 17 St & Broadway,3264,casual
+ride_702727,classic_bike,2024-09-20 16:53:00,2024-09-20 17:11:42,W 72 St & Columbus Ave,8 Ave & W 31 St,1122,member
+ride_790731,electric_bike,2024-09-10 22:35:00,2024-09-10 22:52:06,8 Ave & W 31 St,Central Park S & 6 Ave,1026,member
+ride_700556,classic_bike,2024-09-04 20:04:00,2024-09-04 20:24:06,Broadway & W 60 St,W 41 St & 8 Ave,1206,member
+ride_982885,classic_bike,2024-09-23 00:41:00,2024-09-23 00:54:18,8 Ave & W 31 St,University Pl & E 14 St,798,member
+ride_184002,classic_bike,2024-09-19 00:00:00,2024-09-19 00:06:18,W 21 St & 6 Ave,W 72 St & Columbus Ave,378,member
+ride_745972,electric_bike,2024-09-05 20:35:00,2024-09-05 20:56:30,Hudson St & Reade St,W 72 St & Columbus Ave,1290,member
+ride_966120,classic_bike,2024-09-19 02:11:00,2024-09-19 02:26:48,W 41 St & 8 Ave,Broadway & W 60 St,948,member
+ride_385192,classic_bike,2024-09-13 02:47:00,2024-09-13 03:08:36,W 41 St & 8 Ave,Fulton St & Broadway,1296,member
+ride_795928,electric_bike,2024-09-11 03:56:00,2024-09-11 04:30:42,University Pl & E 14 St,Fulton St & Broadway,2082,member
+ride_829168,classic_bike,2024-09-09 20:04:00,2024-09-09 20:16:06,8 Ave & W 31 St,Hudson St & Reade St,726,member
+ride_301332,classic_bike,2024-09-14 19:31:00,2024-09-14 19:49:42,W 41 St & 8 Ave,Hudson St & Reade St,1122,member
+ride_765678,classic_bike,2024-09-10 19:59:00,2024-09-10 20:27:48,E 17 St & Broadway,Hudson St & Reade St,1728,member
+ride_211726,classic_bike,2024-09-10 21:15:00,2024-09-10 21:38:00,W 41 St & 8 Ave,University Pl & E 14 St,1380,member
+ride_233827,classic_bike,2024-09-08 21:31:00,2024-09-08 21:43:54,8 Ave & W 31 St,Hudson St & Reade St,774,member
+ride_364955,electric_bike,2024-09-27 21:38:00,2024-09-27 22:13:48,Broadway & W 60 St,Central Park S & 6 Ave,2148,member
+ride_101773,classic_bike,2024-09-14 22:37:00,2024-09-14 22:51:06,W 21 St & 6 Ave,Fulton St & Broadway,846,member
+ride_132653,classic_bike,2024-09-21 02:33:00,2024-09-21 03:05:12,Hudson St & Reade St,8 Ave & W 31 St,1932,member
+ride_734487,classic_bike,2024-09-22 15:45:00,2024-09-22 16:08:24,W 72 St & Columbus Ave,W 21 St & 6 Ave,1404,member
+ride_943298,classic_bike,2024-09-03 03:40:00,2024-09-03 04:01:18,Broadway & W 60 St,University Pl & E 14 St,1278,member
+ride_443856,classic_bike,2024-10-01 00:42:00,2024-10-01 01:11:06,University Pl & E 14 St,W 72 St & Columbus Ave,1746,member
+ride_890371,classic_bike,2024-09-02 21:50:00,2024-09-02 22:12:54,Central Park S & 6 Ave,Hudson St & Reade St,1374,member
+ride_787277,electric_bike,2024-09-16 15:38:00,2024-09-16 16:46:12,W 41 St & 8 Ave,Central Park S & 6 Ave,4092,casual
+ride_942127,classic_bike,2024-09-17 20:39:00,2024-09-17 21:05:24,W 21 St & 6 Ave,W 72 St & Columbus Ave,1584,member
+ride_613234,classic_bike,2024-09-07 17:15:00,2024-09-07 17:24:48,Central Park S & 6 Ave,Fulton St & Broadway,588,member
+ride_695361,electric_bike,2024-09-29 16:30:00,2024-09-29 16:45:18,W 41 St & 8 Ave,Broadway & W 60 St,918,member
+ride_608149,classic_bike,2024-09-23 22:09:00,2024-09-23 22:27:54,W 41 St & 8 Ave,W 21 St & 6 Ave,1134,member
+ride_692447,classic_bike,2024-09-25 03:52:00,2024-09-25 04:13:06,University Pl & E 14 St,Hudson St & Reade St,1266,member
+ride_993744,electric_bike,2024-09-15 02:46:00,2024-09-15 03:01:30,E 17 St & Broadway,University Pl & E 14 St,930,member
+ride_770872,classic_bike,2024-09-06 01:03:00,2024-09-06 01:22:12,8 Ave & W 31 St,W 72 St & Columbus Ave,1152,member
+ride_725780,classic_bike,2024-09-04 02:00:00,2024-09-04 02:34:06,W 72 St & Columbus Ave,Hudson St & Reade St,2046,member
+ride_827659,classic_bike,2024-09-02 19:50:00,2024-09-02 20:14:36,Central Park S & 6 Ave,Fulton St & Broadway,1476,member
+ride_387936,electric_bike,2024-09-30 18:45:00,2024-09-30 19:10:30,Fulton St & Broadway,Central Park S & 6 Ave,1530,member
+ride_533911,classic_bike,2024-09-14 16:08:00,2024-09-14 16:24:12,W 21 St & 6 Ave,W 41 St & 8 Ave,972,member
+ride_742039,classic_bike,2024-09-08 20:45:00,2024-09-08 21:10:12,E 17 St & Broadway,Hudson St & Reade St,1512,member
+ride_809176,classic_bike,2024-09-03 15:59:00,2024-09-03 16:35:54,8 Ave & W 31 St,Broadway & W 60 St,2214,member
+ride_468247,electric_bike,2024-09-23 23:30:00,2024-09-23 23:49:00,8 Ave & W 31 St,Hudson St & Reade St,1140,member
+ride_857273,classic_bike,2024-09-20 21:31:00,2024-09-20 22:03:06,W 21 St & 6 Ave,W 72 St & Columbus Ave,1926,member
+ride_699743,electric_bike,2024-09-15 20:35:00,2024-09-15 20:52:54,Hudson St & Reade St,Central Park S & 6 Ave,1074,member
+ride_741599,electric_bike,2024-09-26 21:05:00,2024-09-26 21:37:12,Fulton St & Broadway,Central Park S & 6 Ave,1932,member
+ride_515594,electric_bike,2024-09-17 15:53:00,2024-09-17 16:10:24,8 Ave & W 31 St,W 21 St & 6 Ave,1044,member
+ride_835901,electric_bike,2024-09-05 02:55:00,2024-09-05 03:05:48,University Pl & E 14 St,Fulton St & Broadway,648,member
+ride_791798,electric_bike,2024-09-30 15:45:00,2024-09-30 16:45:54,8 Ave & W 31 St,Central Park S & 6 Ave,3654,casual
+ride_512151,classic_bike,2024-09-20 03:52:00,2024-09-20 04:22:30,8 Ave & W 31 St,W 72 St & Columbus Ave,1830,member
+ride_827117,classic_bike,2024-09-21 20:57:00,2024-09-21 21:10:00,Fulton St & Broadway,W 72 St & Columbus Ave,780,member
+ride_901467,classic_bike,2024-09-17 15:03:00,2024-09-17 15:36:12,E 17 St & Broadway,W 21 St & 6 Ave,1992,member
+ride_148823,electric_bike,2024-09-29 18:14:00,2024-09-29 18:30:18,Fulton St & Broadway,Broadway & W 60 St,978,member
+ride_924613,electric_bike,2024-09-05 19:34:00,2024-09-05 19:52:06,Hudson St & Reade St,W 72 St & Columbus Ave,1086,member
+ride_273982,classic_bike,2024-09-18 22:44:00,2024-09-18 22:55:30,E 17 St & Broadway,W 21 St & 6 Ave,690,member
+ride_157174,classic_bike,2024-09-06 02:04:00,2024-09-06 02:20:12,Broadway & W 60 St,W 21 St & 6 Ave,972,member
+ride_989587,classic_bike,2024-09-08 19:56:00,2024-09-08 20:25:06,Hudson St & Reade St,Fulton St & Broadway,1746,member
+ride_177680,classic_bike,2024-09-08 14:46:00,2024-09-08 15:16:30,University Pl & E 14 St,Hudson St & Reade St,1830,member
+ride_325465,classic_bike,2024-09-05 15:35:00,2024-09-05 15:55:48,Broadway & W 60 St,W 21 St & 6 Ave,1248,member
+ride_598216,classic_bike,2024-09-23 17:39:00,2024-09-23 17:58:36,W 21 St & 6 Ave,Broadway & W 60 St,1176,member
+ride_341736,classic_bike,2024-10-02 01:59:00,2024-10-02 02:22:36,Broadway & W 60 St,W 41 St & 8 Ave,1416,member
+ride_928766,classic_bike,2024-10-01 17:37:00,2024-10-01 17:42:00,8 Ave & W 31 St,Broadway & W 60 St,300,member
+ride_921021,classic_bike,2024-09-11 01:38:00,2024-09-11 01:58:36,Hudson St & Reade St,W 72 St & Columbus Ave,1236,member
+ride_576877,classic_bike,2024-09-05 20:30:00,2024-09-05 20:49:24,Hudson St & Reade St,E 17 St & Broadway,1164,member
+ride_405420,electric_bike,2024-09-04 01:02:00,2024-09-04 01:15:30,Central Park S & 6 Ave,8 Ave & W 31 St,810,member
+ride_949153,electric_bike,2024-09-03 22:07:00,2024-09-03 22:34:18,W 21 St & 6 Ave,Hudson St & Reade St,1638,member
+ride_599127,classic_bike,2024-09-27 04:11:00,2024-09-27 04:33:12,University Pl & E 14 St,W 72 St & Columbus Ave,1332,member
+ride_653306,classic_bike,2024-10-02 01:45:00,2024-10-02 02:25:00,8 Ave & W 31 St,W 41 St & 8 Ave,2400,casual
+ride_802685,classic_bike,2024-09-25 21:52:00,2024-09-25 22:16:18,W 41 St & 8 Ave,University Pl & E 14 St,1458,member
+ride_203398,electric_bike,2024-09-10 23:11:00,2024-09-10 23:29:06,Fulton St & Broadway,Hudson St & Reade St,1086,member
+ride_624139,classic_bike,2024-09-27 15:10:00,2024-09-27 15:28:30,8 Ave & W 31 St,E 17 St & Broadway,1110,member
+ride_282927,electric_bike,2024-09-10 16:13:00,2024-09-10 16:40:42,Central Park S & 6 Ave,W 72 St & Columbus Ave,1662,member
+ride_377746,electric_bike,2024-09-18 01:45:00,2024-09-18 02:44:06,Fulton St & Broadway,8 Ave & W 31 St,3546,casual
+ride_452737,classic_bike,2024-09-24 15:47:00,2024-09-24 16:13:24,W 72 St & Columbus Ave,University Pl & E 14 St,1584,member
+ride_843788,classic_bike,2024-09-07 16:49:00,2024-09-07 17:06:48,8 Ave & W 31 St,University Pl & E 14 St,1068,member
+ride_667296,classic_bike,2024-09-16 01:04:00,2024-09-16 01:36:24,W 41 St & 8 Ave,Hudson St & Reade St,1944,member
+ride_520651,electric_bike,2024-09-16 01:31:00,2024-09-16 02:41:06,W 21 St & 6 Ave,University Pl & E 14 St,4206,casual
+ride_998348,classic_bike,2024-09-04 20:04:00,2024-09-04 20:23:12,University Pl & E 14 St,W 21 St & 6 Ave,1152,member
+ride_617781,classic_bike,2024-09-20 15:59:00,2024-09-20 16:16:18,Hudson St & Reade St,W 72 St & Columbus Ave,1038,member
+ride_116547,classic_bike,2024-09-21 03:31:00,2024-09-21 03:58:06,W 72 St & Columbus Ave,W 41 St & 8 Ave,1626,member
+ride_555052,classic_bike,2024-09-16 15:09:00,2024-09-16 15:41:18,Central Park S & 6 Ave,E 17 St & Broadway,1937,member
+ride_740255,electric_bike,2024-09-19 20:13:00,2024-09-19 20:23:00,Central Park S & 6 Ave,Hudson St & Reade St,600,member
+ride_232361,electric_bike,2024-09-21 17:08:00,2024-09-21 17:35:12,Fulton St & Broadway,W 21 St & 6 Ave,1632,member
+ride_222629,classic_bike,2024-09-19 16:50:00,2024-09-19 17:22:36,Central Park S & 6 Ave,W 41 St & 8 Ave,1956,member
+ride_197545,classic_bike,2024-09-27 21:01:00,2024-09-27 21:12:30,8 Ave & W 31 St,W 41 St & 8 Ave,690,member
+ride_711046,classic_bike,2024-09-11 02:12:00,2024-09-11 02:44:36,W 41 St & 8 Ave,E 17 St & Broadway,1956,member
+ride_680189,classic_bike,2024-09-12 20:32:00,2024-09-12 20:48:48,W 21 St & 6 Ave,W 41 St & 8 Ave,1008,member
+ride_407696,electric_bike,2024-09-10 22:10:00,2024-09-10 22:33:48,Fulton St & Broadway,W 21 St & 6 Ave,1428,member
+ride_528625,classic_bike,2024-09-07 16:53:00,2024-09-07 17:23:36,Broadway & W 60 St,Fulton St & Broadway,1836,member
+ride_691573,electric_bike,2024-09-09 22:03:00,2024-09-09 22:10:48,W 41 St & 8 Ave,E 17 St & Broadway,468,member
+ride_768169,classic_bike,2024-09-29 16:07:00,2024-09-29 16:23:12,Hudson St & Reade St,8 Ave & W 31 St,972,member
+ride_654816,electric_bike,2024-09-22 01:32:00,2024-09-22 02:12:00,W 72 St & Columbus Ave,Fulton St & Broadway,2400,casual
+ride_261745,classic_bike,2024-09-17 20:09:00,2024-09-17 20:30:30,W 72 St & Columbus Ave,University Pl & E 14 St,1290,member
+ride_846746,electric_bike,2024-09-26 20:08:00,2024-09-26 20:32:30,W 72 St & Columbus Ave,Hudson St & Reade St,1470,member
+ride_898329,classic_bike,2024-09-11 15:30:00,2024-09-11 15:47:30,Fulton St & Broadway,W 41 St & 8 Ave,1050,member
+ride_901909,electric_bike,2024-09-22 20:08:00,2024-09-22 20:30:00,W 72 St & Columbus Ave,W 21 St & 6 Ave,1320,member
+ride_661654,classic_bike,2024-09-04 18:43:00,2024-09-04 19:03:24,W 41 St & 8 Ave,E 17 St & Broadway,1224,member
+ride_586462,classic_bike,2024-09-22 21:30:00,2024-09-22 21:47:30,W 72 St & Columbus Ave,Central Park S & 6 Ave,1050,member
+ride_384913,electric_bike,2024-10-01 21:34:00,2024-10-01 21:50:36,Broadway & W 60 St,Central Park S & 6 Ave,996,member
+ride_815198,classic_bike,2024-09-04 16:32:00,2024-09-04 16:47:54,W 41 St & 8 Ave,Central Park S & 6 Ave,954,member
+ride_673896,classic_bike,2024-09-12 17:57:00,2024-09-12 18:23:12,Broadway & W 60 St,University Pl & E 14 St,1572,member
+ride_502491,electric_bike,2024-09-04 03:54:00,2024-09-04 03:59:24,Hudson St & Reade St,W 41 St & 8 Ave,324,member
+ride_715895,classic_bike,2024-09-02 23:56:00,2024-09-03 00:10:00,E 17 St & Broadway,W 21 St & 6 Ave,840,member
+ride_588461,classic_bike,2024-09-04 20:56:00,2024-09-04 21:19:24,E 17 St & Broadway,Hudson St & Reade St,1404,member
+ride_633188,electric_bike,2024-09-14 02:13:00,2024-09-14 02:32:24,E 17 St & Broadway,Fulton St & Broadway,1164,member
+ride_922733,electric_bike,2024-09-07 17:06:00,2024-09-07 17:30:30,Fulton St & Broadway,Central Park S & 6 Ave,1470,member
+ride_251668,classic_bike,2024-09-04 18:56:00,2024-09-04 19:29:24,Fulton St & Broadway,W 72 St & Columbus Ave,2004,member
+ride_414849,classic_bike,2024-09-08 20:00:00,2024-09-08 20:32:30,W 41 St & 8 Ave,E 17 St & Broadway,1950,member
+ride_144412,classic_bike,2024-09-18 22:08:00,2024-09-18 22:29:00,W 41 St & 8 Ave,Hudson St & Reade St,1260,member
+ride_230521,electric_bike,2024-09-13 19:33:00,2024-09-13 19:54:18,W 41 St & 8 Ave,Broadway & W 60 St,1278,member
+ride_776149,electric_bike,2024-09-13 19:36:00,2024-09-13 19:59:36,W 41 St & 8 Ave,W 72 St & Columbus Ave,1416,member
+ride_856648,classic_bike,2024-09-11 21:51:00,2024-09-11 22:12:24,W 41 St & 8 Ave,Broadway & W 60 St,1284,member
+ride_267475,classic_bike,2024-09-05 00:53:00,2024-09-05 01:14:00,Fulton St & Broadway,Broadway & W 60 St,1260,member
+ride_757937,electric_bike,2024-09-29 00:42:00,2024-09-29 00:55:18,8 Ave & W 31 St,E 17 St & Broadway,798,member
+ride_580102,classic_bike,2024-09-18 19:00:00,2024-09-18 19:23:30,Fulton St & Broadway,Central Park S & 6 Ave,1410,member
+ride_354655,electric_bike,2024-09-03 21:05:00,2024-09-03 21:38:54,8 Ave & W 31 St,Fulton St & Broadway,2034,member
+ride_518373,electric_bike,2024-09-03 04:08:00,2024-09-03 04:25:06,Central Park S & 6 Ave,W 41 St & 8 Ave,1026,member
+ride_653948,classic_bike,2024-09-30 14:45:00,2024-09-30 15:03:06,W 72 St & Columbus Ave,E 17 St & Broadway,1086,member
+ride_772985,classic_bike,2024-09-16 16:52:00,2024-09-16 17:20:12,8 Ave & W 31 St,W 72 St & Columbus Ave,1692,member
+ride_862538,electric_bike,2024-09-25 22:41:00,2024-09-25 22:55:42,Hudson St & Reade St,W 21 St & 6 Ave,882,member
+ride_348728,classic_bike,2024-09-24 18:59:00,2024-09-24 19:24:00,Fulton St & Broadway,E 17 St & Broadway,1500,member
+ride_109767,classic_bike,2024-09-24 00:49:00,2024-09-24 01:04:54,W 41 St & 8 Ave,E 17 St & Broadway,954,member
+ride_817956,electric_bike,2024-09-24 16:42:00,2024-09-24 17:12:12,Fulton St & Broadway,University Pl & E 14 St,1812,member
+ride_830429,classic_bike,2024-09-15 20:46:00,2024-09-15 21:15:54,Broadway & W 60 St,Fulton St & Broadway,1794,member
+ride_293319,classic_bike,2024-09-07 19:00:00,2024-09-07 19:18:06,Fulton St & Broadway,W 41 St & 8 Ave,1086,member
+ride_739711,electric_bike,2024-09-11 22:51:00,2024-09-11 23:12:54,W 41 St & 8 Ave,Broadway & W 60 St,1314,member
+ride_938722,classic_bike,2024-09-06 18:54:00,2024-09-06 19:28:00,Hudson St & Reade St,W 72 St & Columbus Ave,2040,member
+ride_755900,electric_bike,2024-09-13 23:33:00,2024-09-13 23:57:36,E 17 St & Broadway,Broadway & W 60 St,1476,member
